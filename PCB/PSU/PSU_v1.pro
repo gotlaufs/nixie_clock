@@ -1,4 +1,4 @@
-update=08.02.2017. 18:38:37
+update=12.02.2017 14:30:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,10 +27,10 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../Library
 [eeschema/libraries]
-LibName1=power
-LibName2=device
+LibName1=device
+LibName2=power
 LibName3=transistors
 LibName4=conn
 LibName5=linear
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=F:/Projects/nixie_clock/PCB/Library/nixie_clock
+LibName30=nixie_clock

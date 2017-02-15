@@ -168,8 +168,8 @@ U 1 1 589B609D
 P 6200 2500
 F 0 "L1" H 6200 2600 50  0000 C CNN
 F 1 "150u" H 6200 2450 50  0000 C CNN
-F 2 "" H 6200 2500 50  0001 C CNN
-F 3 "" H 6200 2500 50  0000 C CNN
+F 2 "Choke_SMD:Choke_SMD_Wuerth-WE-PD-Typ-LS_Handsoldering" H 6200 2500 50  0001 C CNN
+F 3 "https://www.elfa.se/en/inductor-smd-150-uh-20-bi-technologies-hm78d-128151klftr/p/11039640?q=*&sort=Price:asc&filter_Category3=Ferrites+%2F+Inductors+%2F+Filters&filter_Category5=Inductors+%2F+Chokes%2C+SMD&filter_Category4=Inductors+%2F+Chokes&filter_Buyable=1&filter_Rated+inductance~~%C2%B5H=1000+%C2%B5H&filter_Rated+inductance~~%C2%B5H=1200+%C2%B5H&filter_Rated+inductance~~%C2%B5H=150+%C2%B5H&filter_Rated+inductance~~%C2%B5H=180+%C2%B5H&filter_Rated+inductance~~%C2%B5H=1800+%C2%B5H&filter_Rated+inductance~~%C2%B5H=2000+%C2%B5H&filter_Rated+inductance~~%C2%B5H=220+%C2%B5H&filter_Rated+inductance~~%C2%B5H=2200+%C2%B5H&filter_Rated+inductance~~%C2%B5H=248+%C2%B5H&filter_Rated+inductance~~%C2%B5H=250+%C2%B5H&filter_Rated+inductance~~%C2%B5H=256+%C2%B5H&filter_Rated+inductance~~%C2%B5H=270+%C2%B5H&filter_Rated+inductance~~%C2%B5H=2700+%C2%B5H&filter_Rated+inductance~~%C2%B5H=330+%C2%B5H&filter_Rated+inductance~~%C2%B5H=3300+%C2%B5H&filter_Rated+inductance~~%C2%B5H=377+%C2%B5H&filter_Rated+inductance~~%C2%B5H=383+%C2%B5H&filter_Rated+inductance~~%C2%B5H=390+%C2%B5H&filter_Rated+inductance~~%C2%B5H=3900+%C2%B5H&filter_Rated+inductance~~%C2%B5H=470+%C2%B5H&filter_Rated+inductance~~%C2%B5H=4700+%C2%B5H&filter_Rated+inductance~~%C2%B5H=560+%C2%B5H&filter_Rated+inductance~~%C2%B5H=6500+%C2%B5H&filter_Rated+inductance~~%C2%B5H=680+%C2%B5H&filter_Rated+inductance~~%C2%B5H=820+%C2%B5H&filter_Rated+current~~A=1.5+A&filter_Rated+current~~A=1.59+A&filter_Rated+current~~A=1.6+A&filter_Rated+current~~A=1.8+A&filter_Rated+current~~A=2.1+A&page=2&origPos=23&origPageSize=25&simi=97.1" H 6200 2500 50  0001 C CNN
 F 4 "1.1A" H 6200 2500 60  0001 C CNN "Field4"
 	1    6200 2500
 	0    1    1    0   
@@ -208,17 +208,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 3200 5350 3200
 Connection ~ 5200 3200
-$Comp
-L Q_PNP_BCE Q1
-U 1 1 589B6895
-P 5550 3650
-F 0 "Q1" H 5850 3700 50  0000 R CNN
-F 1 "MPSA55" H 6050 3550 50  0000 R CNN
-F 2 "" H 5750 3750 50  0001 C CNN
-F 3 "" H 5550 3650 50  0000 C CNN
-	1    5550 3650
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	5650 3450 5650 3200
 Wire Wire Line
@@ -403,8 +392,8 @@ U 1 1 589B94EA
 P 8100 4050
 F 0 "RV1" H 8100 3970 50  0000 C CNN
 F 1 "100k" H 8100 4050 50  0000 C CNN
-F 2 "" H 8100 4050 50  0001 C CNN
-F 3 "" H 8100 4050 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3214G" H 8100 4050 50  0001 C CNN
+F 3 "https://www.elfa.se/en/trimmer-cermet-smd-100-kohm-250-mw-bi-technologies-23br100klftr/p/16432124?q=*&sort=Price:asc&filter_Category3=Potentiometers%2C+Trimmers&filter_Category5=Single-Turn+Trimmer+Potentiometers%2C+Cermet+SMD&filter_Category4=Trimmer+Resistors&filter_Buyable=1&filter_Resistance~~kOhm=100&page=2&origPos=72&origPageSize=25&simi=97.1" H 8100 4050 50  0001 C CNN
 	1    8100 4050
 	0    1    1    0   
 $EndComp
@@ -494,7 +483,7 @@ F 3 "" H 9100 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 1450 9100 1800
+	9100 1150 9100 1800
 Wire Wire Line
 	9250 1050 9100 1050
 Wire Wire Line
@@ -508,19 +497,11 @@ U 1 1 58A0E018
 P 9450 1250
 F 0 "J1" H 9450 1550 50  0000 C CNN
 F 1 "CONN_01X05" V 9550 1250 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:TO-263-5Lead" H 9450 1250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 9450 1250 50  0001 C CNN
 F 3 "" H 9450 1250 50  0000 C CNN
 	1    9450 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 1450 9250 1450
-Wire Wire Line
-	8950 1150 9250 1150
-Wire Wire Line
-	9250 1250 8950 1250
-Wire Wire Line
-	9250 1350 8950 1350
 $Comp
 L +12V #PWR013
 U 1 1 58A10B93
@@ -548,12 +529,6 @@ Vpulse
 Text Label 9350 2850 0    60   ~ 0
 Vout
 Text Label 7950 3450 0    60   ~ 0
-Rx
-Text Label 8950 1150 2    60   ~ 0
-Vout
-Text Label 8950 1250 2    60   ~ 0
-Vpulse
-Text Label 8950 1350 2    60   ~ 0
 Rx
 $Comp
 L +12V #PWR015
@@ -618,4 +593,29 @@ F 3 "" H 6100 3200 50  0000 C CNN
 	1    6100 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Q_PNP_BEC Q1
+U 1 1 58A4D57B
+P 5550 3650
+F 0 "Q1" H 5850 3700 50  0000 R CNN
+F 1 "MPSA55" H 6000 3600 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5750 3750 50  0001 C CNN
+F 3 "https://www.elfa.se/en/transistor-sot-23-pnp-65-nxp-bc856b/p/17130420?q=*&filter_Category3=Discrete+Semiconductors+%2F+Tubes&filter_Category5=Small+Signal+Transistors&filter_Category4=Transistors&filter_Buyable=1&filter_Housing+type=SOT-23&filter_Polarity=PNP&page=2&origPos=17&origPageSize=25&simi=97.1" H 5550 3650 50  0001 C CNN
+	1    5550 3650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9100 1150 9250 1150
+Wire Wire Line
+	9250 1350 8950 1350
+Text Label 8950 1350 2    60   ~ 0
+Vout
+Wire Wire Line
+	9250 1250 8950 1250
+Wire Wire Line
+	9250 1450 8950 1450
+Text Label 8950 1450 2    60   ~ 0
+Rx
+Text Label 8950 1250 2    60   ~ 0
+Vpulse
 $EndSCHEMATC

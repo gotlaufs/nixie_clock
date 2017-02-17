@@ -111,7 +111,7 @@ P 3900 2450
 F 0 "R2" V 3980 2450 50  0000 C CNN
 F 1 "0.5R" V 3900 2450 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210_HandSoldering" V 3830 2450 50  0001 C CNN
-F 3 "" H 3900 2450 50  0000 C CNN
+F 3 "https://www.elfa.se/en/precision-resistor-smd-51-ohm-33-1206-panasonic-automotive-industrial-systems-erj8bqfr51v/p/16033314" H 3900 2450 50  0001 C CNN
 	1    3900 2450
 	0    1    1    0   
 $EndComp
@@ -122,7 +122,7 @@ P 3900 2200
 F 0 "R1" V 3980 2200 50  0000 C CNN
 F 1 "0.5R" V 3900 2200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210_HandSoldering" V 3830 2200 50  0001 C CNN
-F 3 "" H 3900 2200 50  0000 C CNN
+F 3 "https://www.elfa.se/en/precision-resistor-smd-51-ohm-33-1206-panasonic-automotive-industrial-systems-erj8bqfr51v/p/16033314" H 3900 2200 50  0001 C CNN
 	1    3900 2200
 	0    1    1    0   
 $EndComp
@@ -154,7 +154,7 @@ P 5450 2450
 F 0 "C2" H 5475 2550 50  0000 L CNN
 F 1 "220u" H 5475 2350 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_8x10.5" H 5488 2300 50  0001 C CNN
-F 3 "" H 5450 2450 50  0000 C CNN
+F 3 "https://www.elfa.se/en/aluminium-electrolytic-capacitor-330-uf-suncon-25ce330lx/p/16720387" H 5450 2450 50  0001 C CNN
 F 4 "25V; <0.3R ESR; 8mm" H 5600 2250 60  0000 C CNN "Field4"
 	1    5450 2450
 	1    0    0    -1  
@@ -181,7 +181,7 @@ P 5200 3900
 F 0 "R3" V 5280 3900 50  0000 C CNN
 F 1 "1k" V 5200 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5130 3900 50  0001 C CNN
-F 3 "" H 5200 3900 50  0000 C CNN
+F 3 "https://www.elfa.se/en/smd-resistor-thick-film-kohm-0805-rnd-components-rnd-1550805s8j0102t5e/p/30056853" H 5200 3900 50  0001 C CNN
 	1    5200 3900
 	1    0    0    -1  
 $EndComp
@@ -192,7 +192,7 @@ P 5500 3200
 F 0 "D1" H 5500 3300 50  0000 C CNN
 F 1 "1N914" H 5500 3100 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 5500 3200 50  0001 C CNN
-F 3 "" H 5500 3200 50  0000 C CNN
+F 3 "https://www.elfa.se/en/diode-sod-123-75-diotec-1n4148w/p/17000727" H 5500 3200 50  0001 C CNN
 	1    5500 3200
 	-1   0    0    1   
 $EndComp
@@ -269,24 +269,13 @@ Wire Wire Line
 	6200 2850 6750 2850
 Connection ~ 6200 2850
 $Comp
-L D D2
-U 1 1 589B70C6
-P 6900 2850
-F 0 "D2" H 6900 2950 50  0000 C CNN
-F 1 "BAV21" H 6900 2750 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6900 2850 50  0001 C CNN
-F 3 "" H 6900 2850 50  0000 C CNN
-	1    6900 2850
-	-1   0    0    1   
-$EndComp
-$Comp
 L R R4
 U 1 1 589B749B
 P 7200 3400
 F 0 "R4" V 7280 3400 50  0000 C CNN
 F 1 "475k" V 7100 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7130 3400 50  0001 C CNN
-F 3 "" H 7200 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7130 3400 50  0001 C CNN
+F 3 "https://www.elfa.se/en/smd-resistor-thick-film-475-kohm-0603-rnd-components-rnd-1550603saf4753t5e/p/30056615" H 7200 3400 50  0001 C CNN
 F 4 "1%" V 7200 3400 60  0000 C CNN "Field4"
 	1    7200 3400
 	1    0    0    -1  
@@ -297,8 +286,8 @@ U 1 1 589B7526
 P 7200 4050
 F 0 "R5" V 7280 4050 50  0000 C CNN
 F 1 "13.7k" V 7100 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7130 4050 50  0001 C CNN
-F 3 "" H 7200 4050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7130 4050 50  0001 C CNN
+F 3 "https://www.elfa.se/en/precision-resistor-smd-13-kohm-0603-panasonic-automotive-industrial-systems-erj3ekf1372v/p/30051398" H 7200 4050 50  0001 C CNN
 F 4 "1%" V 7200 4050 60  0000 C CNN "Field4"
 	1    7200 4050
 	1    0    0    -1  
@@ -329,7 +318,7 @@ P 6900 4100
 F 0 "C3" H 6925 4200 50  0000 L CNN
 F 1 "0.01u" H 6925 4000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6938 3950 50  0001 C CNN
-F 3 "" H 6900 4100 50  0000 C CNN
+F 3 "https://www.elfa.se/en/capacitor-10-nf-0805-rnd-components-rnd-1500805b103k500/p/30065754" H 6900 4100 50  0001 C CNN
 F 4 "50V" H 7000 3900 60  0000 C CNN "Field4"
 	1    6900 4100
 	1    0    0    -1  
@@ -366,7 +355,7 @@ P 8800 3200
 F 0 "C4" H 8825 3300 50  0000 L CNN
 F 1 "2.2u" H 8825 3100 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_10x10.5" H 8838 3050 50  0001 C CNN
-F 3 "" H 8800 3200 50  0000 C CNN
+F 3 "https://www.elfa.se/en/aluminium-electrolytic-capacitor-uf-suncon-250ce6r8fs/p/16722532" H 8800 3200 50  0001 C CNN
 F 4 "250V" H 8950 3000 60  0000 C CNN "Field4"
 	1    8800 3200
 	1    0    0    -1  
@@ -381,7 +370,7 @@ P 7500 3700
 F 0 "R6" V 7580 3700 50  0000 C CNN
 F 1 "4.02k" V 7400 3700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 7430 3700 50  0001 C CNN
-F 3 "" H 7500 3700 50  0000 C CNN
+F 3 "https://www.elfa.se/en/precision-resistor-smd-02-kohm-125-0805-panasonic-automotive-industrial-systems-erj6enf4021v/p/30051502" H 7500 3700 50  0001 C CNN
 F 4 "1%" V 7500 3700 60  0000 C CNN "Field4"
 	1    7500 3700
 	0    1    1    0   
@@ -589,7 +578,7 @@ P 6100 3200
 F 0 "Q2" H 6400 3250 50  0000 R CNN
 F 1 "IRF630" H 6550 3150 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:TO-252-2Lead" H 6300 3300 50  0001 C CNN
-F 3 "" H 6100 3200 50  0000 C CNN
+F 3 "https://www.elfa.se/en/mosfet-400-10-125-d2pak-vishay-irf740spbf/p/17115868" H 6100 3200 50  0001 C CNN
 	1    6100 3200
 	1    0    0    -1  
 $EndComp
@@ -618,4 +607,15 @@ Text Label 8950 1450 2    60   ~ 0
 Rx
 Text Label 8950 1250 2    60   ~ 0
 Vpulse
+$Comp
+L BAS21 D2
+U 1 1 58A781C3
+P 6900 2850
+F 0 "D2" H 6900 2950 50  0000 C CNN
+F 1 "BAS21" H 6900 2750 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6900 2850 50  0001 C CNN
+F 3 "https://www.elfa.se/en/diode-sot-23-200-infineon-bas21/p/17030082" H 6900 2850 50  0001 C CNN
+	1    6900 2850
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

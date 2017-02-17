@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BAS21
+D High voltage high speed switching diode SOT-23 package
+K D; Diode;
+$ENDCMP
+#
 $CMP MC34063
 D Step up/down/inverting 1.5A switching power regulator
 F ../_Datasheets/MC34063A-D.PDF

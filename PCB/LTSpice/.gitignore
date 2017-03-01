@@ -1,0 +1,5 @@
+# LTSpice gitignore
+*.raw
+*.net
+*.log
+

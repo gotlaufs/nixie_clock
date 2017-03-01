@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:PSU_v1-rescue
 LIBS:device
 LIBS:power
 LIBS:transistors
@@ -45,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MC34063 U1
+L MC34063-RESCUE-PSU_v1 U1
 U 1 1 589B59F5
 P 4350 3150
 F 0 "U1" H 4350 2650 60  0000 C CNN

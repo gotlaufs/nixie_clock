@@ -9,12 +9,12 @@ Because no decent project is ever finished.
     Or even better - use a comparator to feed the MCU!
     - [ ] Reverse polarity
 - [x] Test points
-- [ ] Bigger board
-    - [ ] Better spacing
-    - [ ] Better ground plane
+- [x] Bigger board
+    - [x] Better spacing
+    - [x] Better ground plane
 - [ ] Maybe add 2.54 mm compatible breakout pins for the MC34063 chip
 - [x] Pick more sane resistor values
 - [x] Fix MOSFET footprint
-- [ ] Move connector header closer to board edge
+- [o] Move connector header closer to board edge
 - [x] Add resistor pad for pin 8. This can limit the current for the internal switch transistors - could speed up the design. Read page 14 of the application manual.
 

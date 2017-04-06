@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2550 4100 2450
 Wire Wire Line
-	4100 2450 3650 2450
+	3650 2450 5750 2450
 Wire Wire Line
 	3750 3300 4350 3300
 Connection ~ 4100 3300
@@ -432,17 +432,6 @@ Q2-Q4 General purpose NPN transistors
 Text Notes 1400 6300 0    60   ~ 0
 U1 General purpose single supply dual Op Amp with Vcc of +12V.
 $Comp
-L CONN_01X06 P1
-U 1 1 58E1E35A
-P 9350 1300
-F 0 "P1" H 9350 1650 50  0000 C CNN
-F 1 "Signals" V 9450 1300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9350 1300 50  0001 C CNN
-F 3 "" H 9350 1300 50  0000 C CNN
-	1    9350 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L +12V #PWR011
 U 1 1 58E1E64F
 P 8950 900
@@ -465,27 +454,17 @@ F 3 "" H 9000 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 1050 8950 1050
-Wire Wire Line
-	8950 1050 8950 900 
-Wire Wire Line
-	9000 1800 9000 1550
-Wire Wire Line
-	9000 1550 9150 1550
+	8950 900  8950 1350
 Text GLabel 8650 1150 0    60   Input ~ 0
 ON
-Text GLabel 8700 1250 0    60   Input ~ 0
+Text GLabel 8650 1050 0    60   Input ~ 0
 Vref
-Text GLabel 8650 1350 0    60   Input ~ 0
+Text GLabel 8650 1650 0    60   Input ~ 0
 V-
-Text GLabel 8650 1450 0    60   Input ~ 0
+Text GLabel 8650 1550 0    60   Input ~ 0
 V+
 Wire Wire Line
 	9150 1150 8650 1150
-Wire Wire Line
-	9150 1250 8700 1250
-Wire Wire Line
-	8650 1350 9150 1350
 Wire Wire Line
 	8650 1450 9150 1450
 Text Label 5500 4250 0    60   ~ 0
@@ -668,4 +647,32 @@ Wire Wire Line
 	8950 3000 9100 3000
 Wire Wire Line
 	8950 3100 9100 3100
+Connection ~ 4100 2450
+Text GLabel 5750 2450 2    60   Input ~ 0
+Vout
+$Comp
+L CONN_01X07 P1
+U 1 1 58E62CEA
+P 9350 1350
+F 0 "P1" H 9350 1750 50  0000 C CNN
+F 1 "Signals" V 9450 1350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 9350 1350 50  0001 C CNN
+F 3 "" H 9350 1350 50  0000 C CNN
+	1    9350 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 8650 1450 0    60   Input ~ 0
+Vout
+Wire Wire Line
+	8650 1550 9150 1550
+Wire Wire Line
+	8650 1650 9150 1650
+Wire Wire Line
+	8950 1350 9150 1350
+Wire Wire Line
+	8650 1050 9150 1050
+Wire Wire Line
+	9000 1800 9000 1250
+Wire Wire Line
+	9000 1250 9150 1250
 $EndSCHEMATC

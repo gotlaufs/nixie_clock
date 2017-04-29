@@ -1,3 +1,8 @@
+# For EAGLE CAD
+# Temp files
+*.s#*
+*.b#*
+
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 
 # Temporary files

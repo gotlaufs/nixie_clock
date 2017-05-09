@@ -26492,6 +26492,9 @@ Second output cap optional
 Inductor:
    &gt;0.5A cont, &gt;1A peak
    &gt;=100 uH</text>
+<text x="83.82" y="58.42" size="1.778" layer="91">
+B230A-13-F
+</text>
 </plain>
 <instances>
 <instance part="SUPPLY8" gate="G$1" x="12.7" y="111.76"/>
@@ -26904,6 +26907,9 @@ should be connected as follows:
 
 Note:
    Populate either R8 or R28, not both</text>
+<text x="266.7" y="0" size="1.778" layer="91">
+ECS-.327-7-34B
+</text>
 </plain>
 <instances>
 <instance part="R11" gate="G$1" x="10.16" y="68.58" rot="R180"/>

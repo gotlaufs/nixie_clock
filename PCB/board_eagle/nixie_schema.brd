@@ -187,6 +187,8 @@
 <hole x="190" y="-20" drill="3.2"/>
 <hole x="190" y="-75" drill="3.2"/>
 <hole x="10" y="-75" drill="3.2"/>
+<text x="85.09" y="-21.59" size="6.4516" layer="20">150*80</text>
+<text x="83.82" y="63.5" size="6.4516" layer="20">150*80</text>
 </plain>
 <libraries>
 <library name="rcl">

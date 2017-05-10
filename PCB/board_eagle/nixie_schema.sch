@@ -24395,13 +24395,13 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0.4064">
-<clearance class="0" value="0.1524"/>
+<class number="0" name="default" width="0.254" drill="0.4">
+<clearance class="0" value="0.2032"/>
 </class>
-<class number="1" name="Power" width="1.016" drill="0.4064">
+<class number="1" name="Power" width="1.016" drill="0.5">
 </class>
-<class number="2" name="HV" width="0.1524" drill="0.4064">
-<clearance class="2" value="0.508"/>
+<class number="2" name="HV" width="0.254" drill="0.5">
+<clearance class="2" value="1"/>
 </class>
 </classes>
 <parts>
@@ -24481,7 +24481,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="D2" library="nixe_cmp" deviceset="BAS21" device=""/>
 <part name="Q1" library="nixe_cmp" deviceset="BC856B" device=""/>
 <part name="L3" library="nixe_cmp" deviceset="HM78D-128151KLFTR" device="" value="150u"/>
-<part name="C12" library="rcl" deviceset="CPOL-EU" device="153CLV-0810" value="220u"/>
 <part name="C13" library="rcl" deviceset="CPOL-EU" device="153CLV-1014" value="2.2u"/>
 <part name="R27" library="pot" deviceset="TRIM_EU-" device="SM-42/43X" value="100k"/>
 <part name="U1" library="PatternAgents_RFmodules" deviceset="ESP12E" device="SMD"/>
@@ -24553,6 +24552,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="S6" library="switch-omron" deviceset="31-XX" device=""/>
 <part name="S1" library="switch-omron" deviceset="31-XX" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C12" library="rcl" deviceset="CPOL-EU" device="153CLV-1014" value="220u"/>
 </parts>
 <sheets>
 <sheet>
@@ -25892,13 +25892,13 @@ L3 &gt;1.5 A cont</text>
 <instance part="D2" gate="D$1" x="160.02" y="50.8"/>
 <instance part="Q1" gate="Q$1" x="96.52" y="25.4"/>
 <instance part="L3" gate="G$1" x="119.38" y="66.04"/>
-<instance part="C12" gate="G$1" x="88.9" y="66.04"/>
 <instance part="C13" gate="G$1" x="218.44" y="17.78"/>
 <instance part="R27" gate="1" x="200.66" y="17.78"/>
 <instance part="U$12" gate="G$1" x="-2.54" y="2.54"/>
 <instance part="C14" gate="G$1" x="-2.54" y="22.86"/>
 <instance part="C10" gate="G$1" x="10.16" y="22.86"/>
 <instance part="C11" gate="G$1" x="160.02" y="20.32"/>
+<instance part="C12" gate="G$1" x="88.9" y="66.04"/>
 </instances>
 <busses>
 </busses>

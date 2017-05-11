@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -22421,6 +22421,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <class number="3" name="medium power" width="0.508" drill="0.5">
 <clearance class="3" value="0.2032"/>
 </class>
+<class number="4" name="GND pour" width="0.3048" drill="0.5">
+<clearance class="4" value="0.3048"/>
+</class>
 </classes>
 <parts>
 <part name="U$1" library="supertex" deviceset="HV5522" device=""/>
@@ -22575,6 +22578,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="R27" library="resistor" deviceset="R-EU_" device="R0603"/>
 <part name="R36" library="resistor" deviceset="R-EU_" device="R0603"/>
 <part name="U$29" library="PatternAgents-Beautify" deviceset="GND" device=""/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="GND3" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22630,6 +22635,8 @@ R = (Vstrike - Vmaint)/Ic</text>
 <instance part="R33" gate="G$1" x="17.78" y="175.26" rot="R90"/>
 <instance part="R34" gate="G$1" x="50.8" y="175.26" rot="R90"/>
 <instance part="R35" gate="G$1" x="139.7" y="175.26" rot="R90"/>
+<instance part="C2" gate="G$1" x="-38.1" y="101.6"/>
+<instance part="GND3" gate="1" x="-38.1" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -22672,7 +22679,11 @@ R = (Vstrike - Vmaint)/Ic</text>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-43.18" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="109.22" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="109.22" x2="-30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="104.14" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
+<junction x="-38.1" y="109.22"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
@@ -22736,6 +22747,11 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="U$3" gate="B" pin="S"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="38.1" y1="-22.86" x2="38.1" y2="-25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="93.98" x2="-38.1" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HV_LE" class="0">
@@ -22834,7 +22850,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="-7.62" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_IN+" class="0">
+<net name="HV_IN+" class="2">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="-38.1" y1="187.96" x2="-38.1" y2="193.04" width="0.1524" layer="91"/>
@@ -22999,9 +23015,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="10"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV11"/>
-<wire x1="17.78" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
-<label x="15.24" y="50.8" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV18"/>
+<wire x1="58.42" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<label x="60.96" y="76.2" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_1" class="0">
@@ -23011,9 +23027,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="8"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV12"/>
-<wire x1="17.78" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
-<label x="15.24" y="48.26" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV19"/>
+<wire x1="58.42" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
+<label x="60.96" y="73.66" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_3" class="0">
@@ -23023,9 +23039,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="4"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV15"/>
-<wire x1="17.78" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
-<label x="15.24" y="43.18" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV21"/>
+<wire x1="58.42" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<label x="60.96" y="68.58" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_2" class="0">
@@ -23035,9 +23051,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="6"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV13"/>
-<wire x1="17.78" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
-<label x="15.24" y="45.72" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV20"/>
+<wire x1="58.42" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<label x="60.96" y="71.12" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_4" class="0">
@@ -23047,9 +23063,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV14"/>
-<wire x1="17.78" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
-<label x="15.24" y="40.64" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV22"/>
+<wire x1="58.42" y1="66.04" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
+<label x="60.96" y="66.04" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_5" class="0">
@@ -23061,7 +23077,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="HV16"/>
 <wire x1="17.78" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
-<label x="15.24" y="38.1" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<label x="15.24" y="38.1" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_6" class="0">
@@ -23071,9 +23087,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="7"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV17"/>
-<wire x1="58.42" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
-<label x="60.96" y="78.74" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV15"/>
+<wire x1="17.78" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
+<label x="15.24" y="43.18" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_7" class="0">
@@ -23083,9 +23099,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="5"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV18"/>
-<wire x1="58.42" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
-<label x="60.96" y="76.2" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV14"/>
+<wire x1="17.78" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<label x="15.24" y="40.64" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_8" class="0">
@@ -23095,9 +23111,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="3"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV19"/>
-<wire x1="58.42" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<label x="60.96" y="73.66" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV13"/>
+<wire x1="17.78" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
+<label x="15.24" y="45.72" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_9" class="0">
@@ -23107,9 +23123,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV2" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV20"/>
-<wire x1="58.42" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
-<label x="60.96" y="71.12" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV12"/>
+<wire x1="17.78" y1="48.26" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
+<label x="15.24" y="48.26" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_0" class="0">
@@ -23119,9 +23135,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="10"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV21"/>
-<wire x1="58.42" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
-<label x="60.96" y="68.58" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV27"/>
+<wire x1="58.42" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
+<label x="60.96" y="50.8" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_1" class="0">
@@ -23131,9 +23147,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="8"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV22"/>
-<wire x1="58.42" y1="66.04" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
-<label x="60.96" y="66.04" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV26"/>
+<wire x1="58.42" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<label x="60.96" y="53.34" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_2" class="0">
@@ -23143,9 +23159,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="6"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV23"/>
-<wire x1="58.42" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
-<label x="60.96" y="63.5" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV25"/>
+<wire x1="58.42" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
+<label x="60.96" y="55.88" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_3" class="0">
@@ -23157,7 +23173,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="HV24"/>
 <wire x1="58.42" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
-<label x="60.96" y="60.96" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<label x="60.96" y="60.96" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_4" class="0">
@@ -23167,9 +23183,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV25"/>
-<wire x1="58.42" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
-<label x="60.96" y="55.88" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV23"/>
+<wire x1="58.42" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<label x="60.96" y="63.5" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_5" class="0">
@@ -23179,9 +23195,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="9"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV26"/>
-<wire x1="60.96" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
-<label x="60.96" y="53.34" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV28"/>
+<wire x1="58.42" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<label x="60.96" y="48.26" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_6" class="0">
@@ -23191,9 +23207,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="7"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV27"/>
-<wire x1="58.42" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
-<label x="60.96" y="50.8" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV29"/>
+<wire x1="58.42" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<label x="60.96" y="45.72" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_7" class="0">
@@ -23203,9 +23219,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="5"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV28"/>
-<wire x1="58.42" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
-<label x="60.96" y="48.26" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV30"/>
+<wire x1="58.42" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
+<label x="60.96" y="43.18" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_8" class="0">
@@ -23215,9 +23231,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="3"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV29"/>
-<wire x1="58.42" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
-<label x="60.96" y="45.72" size="0.6096" layer="95" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV31"/>
+<wire x1="58.42" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
+<label x="60.96" y="40.64" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MA_9" class="0">
@@ -23227,9 +23243,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV3" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV30"/>
-<wire x1="58.42" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
-<label x="60.96" y="43.18" size="0.6096" layer="95" ratio="6" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="HV32"/>
+<wire x1="58.42" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
+<label x="60.96" y="38.1" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_0" class="0">
@@ -23239,9 +23255,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="10"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV1"/>
-<wire x1="106.68" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
-<label x="101.6" y="78.74" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV5"/>
+<wire x1="106.68" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<label x="104.14" y="68.58" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_1" class="0">
@@ -23251,9 +23267,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="8"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV2"/>
-<wire x1="106.68" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
-<label x="101.6" y="76.2" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV4"/>
+<wire x1="106.68" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
+<label x="104.14" y="71.12" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_2" class="0">
@@ -23264,8 +23280,8 @@ R = (Vstrike - Vmaint)/Ic</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="HV3"/>
-<wire x1="106.68" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
-<label x="101.6" y="73.66" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<wire x1="106.68" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+<label x="104.14" y="73.66" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_3" class="0">
@@ -23275,9 +23291,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="4"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV4"/>
-<wire x1="106.68" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
-<label x="101.6" y="71.12" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV2"/>
+<wire x1="106.68" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
+<label x="104.14" y="76.2" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_4" class="0">
@@ -23287,9 +23303,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV5"/>
-<wire x1="106.68" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
-<label x="101.6" y="68.58" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV1"/>
+<wire x1="106.68" y1="78.74" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
+<label x="104.14" y="78.74" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_5" class="0">
@@ -23299,9 +23315,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="9"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV6"/>
-<wire x1="106.68" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
-<label x="101.6" y="66.04" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV7"/>
+<wire x1="106.68" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<label x="104.14" y="63.5" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_6" class="0">
@@ -23311,9 +23327,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="7"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV7"/>
-<wire x1="106.68" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
-<label x="101.6" y="63.5" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV8"/>
+<wire x1="106.68" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+<label x="104.14" y="60.96" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_7" class="0">
@@ -23323,9 +23339,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="5"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV8"/>
-<wire x1="106.68" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<label x="101.6" y="60.96" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV9"/>
+<wire x1="106.68" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
+<label x="104.14" y="55.88" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_8" class="0">
@@ -23335,9 +23351,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="3"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV9"/>
-<wire x1="106.68" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
-<label x="101.6" y="55.88" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV10"/>
+<wire x1="106.68" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
+<label x="104.14" y="53.34" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_MB_9" class="0">
@@ -23347,9 +23363,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV4" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV10"/>
-<wire x1="106.68" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
-<label x="101.6" y="53.34" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV11"/>
+<wire x1="106.68" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+<label x="104.14" y="50.8" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_0" class="0">
@@ -23359,9 +23375,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="10"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV11"/>
-<wire x1="106.68" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<label x="101.6" y="50.8" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV18"/>
+<wire x1="147.32" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<label x="149.86" y="76.2" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_1" class="0">
@@ -23371,9 +23387,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="8"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV12"/>
-<wire x1="106.68" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
-<label x="101.6" y="48.26" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV19"/>
+<wire x1="147.32" y1="73.66" x2="149.86" y2="73.66" width="0.1524" layer="91"/>
+<label x="149.86" y="73.66" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_3" class="0">
@@ -23383,9 +23399,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="4"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV15"/>
-<wire x1="106.68" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
-<label x="101.6" y="43.18" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV21"/>
+<wire x1="147.32" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
+<label x="149.86" y="68.58" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_2" class="0">
@@ -23395,9 +23411,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="6"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV13"/>
-<wire x1="106.68" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
-<label x="101.6" y="45.72" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV20"/>
+<wire x1="147.32" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
+<label x="149.86" y="71.12" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_4" class="0">
@@ -23407,9 +23423,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV14"/>
-<wire x1="106.68" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
-<label x="101.6" y="40.64" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV22"/>
+<wire x1="147.32" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
+<label x="149.86" y="66.04" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_5" class="0">
@@ -23419,9 +23435,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="9"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV16"/>
-<wire x1="106.68" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
-<label x="101.6" y="38.1" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV17"/>
+<wire x1="147.32" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
+<label x="149.86" y="78.74" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_6" class="0">
@@ -23431,9 +23447,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="7"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV17"/>
-<wire x1="147.32" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
-<label x="152.4" y="78.74" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV16"/>
+<wire x1="106.68" y1="38.1" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
+<label x="104.14" y="38.1" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_7" class="0">
@@ -23443,9 +23459,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="5"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV18"/>
-<wire x1="147.32" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
-<label x="152.4" y="76.2" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV15"/>
+<wire x1="106.68" y1="43.18" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
+<label x="104.14" y="43.18" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_8" class="0">
@@ -23455,9 +23471,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="3"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV19"/>
-<wire x1="147.32" y1="73.66" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="152.4" y="73.66" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV14"/>
+<wire x1="106.68" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+<label x="104.14" y="40.64" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_9" class="0">
@@ -23467,9 +23483,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV5" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV20"/>
-<wire x1="147.32" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
-<label x="152.4" y="71.12" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV13"/>
+<wire x1="106.68" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
+<label x="104.14" y="45.72" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_0" class="0">
@@ -23479,9 +23495,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV6" gate="1" pin="10"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV21"/>
-<wire x1="147.32" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
-<label x="152.4" y="68.58" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV27"/>
+<wire x1="147.32" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
+<label x="149.86" y="50.8" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_1" class="0">
@@ -23491,9 +23507,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV6" gate="1" pin="8"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV22"/>
-<wire x1="147.32" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
-<label x="152.4" y="66.04" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV26"/>
+<wire x1="147.32" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
+<label x="149.86" y="53.34" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_2" class="0">
@@ -23503,9 +23519,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV6" gate="1" pin="6"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV23"/>
-<wire x1="147.32" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
-<label x="152.4" y="63.5" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV25"/>
+<wire x1="147.32" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
+<label x="149.86" y="55.88" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_3" class="0">
@@ -23516,8 +23532,8 @@ R = (Vstrike - Vmaint)/Ic</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="HV24"/>
-<wire x1="147.32" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
-<label x="152.4" y="60.96" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<wire x1="147.32" y1="60.96" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
+<label x="149.86" y="60.96" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_4" class="0">
@@ -23527,9 +23543,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV6" gate="1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV25"/>
-<wire x1="147.32" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
-<label x="152.4" y="55.88" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV23"/>
+<wire x1="147.32" y1="63.5" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
+<label x="149.86" y="63.5" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_5" class="0">
@@ -23539,9 +23555,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV6" gate="1" pin="9"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV26"/>
-<wire x1="147.32" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
-<label x="152.4" y="53.34" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV32"/>
+<wire x1="147.32" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
+<label x="149.86" y="38.1" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_6" class="0">
@@ -23551,9 +23567,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV6" gate="1" pin="7"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV27"/>
-<wire x1="147.32" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
-<label x="152.4" y="50.8" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV31"/>
+<wire x1="147.32" y1="40.64" x2="149.86" y2="40.64" width="0.1524" layer="91"/>
+<label x="149.86" y="40.64" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_7" class="0">
@@ -23563,9 +23579,9 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV6" gate="1" pin="5"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV28"/>
-<wire x1="147.32" y1="48.26" x2="152.4" y2="48.26" width="0.1524" layer="91"/>
-<label x="152.4" y="48.26" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV30"/>
+<wire x1="147.32" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
+<label x="149.86" y="43.18" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_8" class="0">
@@ -23576,8 +23592,8 @@ R = (Vstrike - Vmaint)/Ic</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="HV29"/>
-<wire x1="147.32" y1="45.72" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
-<label x="152.4" y="45.72" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<wire x1="147.32" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
+<label x="149.86" y="45.72" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SB_9" class="0">
@@ -23587,12 +23603,12 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="SV6" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="HV30"/>
-<wire x1="147.32" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
-<label x="152.4" y="43.18" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="HV28"/>
+<wire x1="147.32" y1="48.26" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
+<label x="149.86" y="48.26" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="N$89" class="0">
+<net name="N$89" class="2">
 <segment>
 <pinref part="SV1" gate="1" pin="12"/>
 <wire x1="-38.1" y1="177.8" x2="-38.1" y2="167.64" width="0.1524" layer="91"/>
@@ -23600,7 +23616,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="R15" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$90" class="0">
+<net name="N$90" class="2">
 <segment>
 <pinref part="SV2" gate="1" pin="12"/>
 <wire x1="0" y1="167.64" x2="-2.54" y2="167.64" width="0.1524" layer="91"/>
@@ -23608,7 +23624,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$91" class="0">
+<net name="N$91" class="2">
 <segment>
 <pinref part="SV6" gate="1" pin="12"/>
 <wire x1="190.5" y1="167.64" x2="187.96" y2="167.64" width="0.1524" layer="91"/>
@@ -23616,7 +23632,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$92" class="0">
+<net name="N$92" class="2">
 <segment>
 <pinref part="SV5" gate="1" pin="12"/>
 <wire x1="157.48" y1="167.64" x2="154.94" y2="167.64" width="0.1524" layer="91"/>
@@ -23624,7 +23640,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="2">
 <segment>
 <pinref part="SV4" gate="1" pin="12"/>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -23632,7 +23648,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <wire x1="119.38" y1="167.64" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="N$11" class="2">
 <segment>
 <pinref part="SV3" gate="1" pin="12"/>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -23642,50 +23658,51 @@ R = (Vstrike - Vmaint)/Ic</text>
 </net>
 <net name="HV_HA_DP" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="HV31"/>
-<wire x1="58.42" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
-<label x="60.96" y="40.64" size="0.6096" layer="95" ratio="6" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="180.34" x2="-17.78" y2="182.88" width="0.1524" layer="91"/>
 <label x="-17.78" y="182.88" size="0.6096" layer="95" ratio="6" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="HV11"/>
+<wire x1="17.78" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
+<label x="15.24" y="50.8" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="HV_HB_DP" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="HV32"/>
-<wire x1="58.42" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
-<label x="60.96" y="38.1" size="0.6096" layer="95" ratio="6" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="180.34" x2="17.78" y2="182.88" width="0.1524" layer="91"/>
 <label x="17.78" y="182.88" size="0.6096" layer="95" ratio="6" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="HV17"/>
+<wire x1="58.42" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
+<label x="60.96" y="78.74" size="0.6096" layer="95" ratio="6" xref="yes"/>
+<label x="60.96" y="78.74" size="0.6096" layer="95" ratio="6" xref="yes"/>
+</segment>
 </net>
 <net name="HV_MA_DP" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="HV31"/>
-<wire x1="147.32" y1="40.64" x2="152.4" y2="40.64" width="0.1524" layer="91"/>
-<label x="152.4" y="40.64" size="0.6096" layer="95" ratio="6" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="180.34" x2="50.8" y2="182.88" width="0.1524" layer="91"/>
 <label x="50.8" y="182.88" size="0.6096" layer="95" ratio="6" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="HV12"/>
+<wire x1="106.68" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
+<label x="104.14" y="48.26" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="HV_MB_DP" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="HV32"/>
-<wire x1="147.32" y1="38.1" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
-<label x="152.4" y="38.1" size="0.6096" layer="95" ratio="6" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R35" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="180.34" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
 <label x="139.7" y="182.88" size="0.6096" layer="95" ratio="6" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="HV6"/>
+<wire x1="106.68" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
+<label x="104.14" y="66.04" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$106" class="0">
@@ -24121,7 +24138,7 @@ L3 &gt;1.5 A cont</text>
 <pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="HV_IN+" class="0">
+<net name="HV_IN+" class="2">
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="40.64" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
@@ -24593,7 +24610,7 @@ Note:
 <junction x="55.88" y="25.4"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="N$22" class="3">
 <segment>
 <wire x1="294.64" y1="2.54" x2="294.64" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="BAT/NC"/>
@@ -25216,7 +25233,7 @@ Note:
 <wire x1="350.52" y1="33.02" x2="350.52" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$45" class="0">
+<net name="N$45" class="2">
 <segment>
 <pinref part="SV12" gate="1" pin="12"/>
 <wire x1="375.92" y1="-15.24" x2="337.82" y2="-15.24" width="0.1524" layer="91"/>
@@ -25225,7 +25242,7 @@ Note:
 <wire x1="375.92" y1="-15.24" x2="375.92" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="N$10" class="2">
 <segment>
 <pinref part="SV7" gate="1" pin="12"/>
 <wire x1="-5.08" y1="35.56" x2="-5.08" y2="38.1" width="0.1524" layer="91"/>
@@ -25236,7 +25253,7 @@ Note:
 <wire x1="25.4" y1="-15.24" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="N$19" class="2">
 <segment>
 <wire x1="93.98" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV8" gate="1" pin="12"/>
@@ -25245,7 +25262,7 @@ Note:
 <wire x1="93.98" y1="-15.24" x2="93.98" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="2">
 <segment>
 <wire x1="167.64" y1="-15.24" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV9" gate="1" pin="12"/>
@@ -25254,7 +25271,7 @@ Note:
 <wire x1="167.64" y1="-15.24" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$88" class="0">
+<net name="N$88" class="2">
 <segment>
 <wire x1="236.22" y1="-15.24" x2="205.74" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV10" gate="1" pin="12"/>
@@ -25263,7 +25280,7 @@ Note:
 <wire x1="236.22" y1="-15.24" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$98" class="0">
+<net name="N$98" class="2">
 <segment>
 <pinref part="SV11" gate="1" pin="12"/>
 <wire x1="271.78" y1="38.1" x2="271.78" y2="-15.24" width="0.1524" layer="91"/>

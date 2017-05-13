@@ -22460,10 +22460,10 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="SV4" library="con-lstb" deviceset="MA06-2" device=""/>
 <part name="SV5" library="con-lstb" deviceset="MA06-2" device=""/>
 <part name="SV6" library="con-lstb" deviceset="MA06-2" device=""/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="R0603"/>
-<part name="R12" library="resistor" deviceset="R-EU_" device="R0603"/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="R0603"/>
-<part name="R14" library="resistor" deviceset="R-EU_" device="R0603"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R12" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R13" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="JP1" library="PatternAgents-JTAG" deviceset="JUMPER2" device=""/>
 <part name="U$14" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$15" library="PatternAgents-Beautify" deviceset="GND" device=""/>
@@ -22490,7 +22490,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="R22" library="eagle-ltspice" deviceset="R" device="R1210" value="0.5R"/>
 <part name="R23" library="eagle-ltspice" deviceset="R" device="R1210" value="0.5R"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="D1" library="diode" deviceset="DIODE-" device="SOD123"/>
+<part name="D1" library="diode" deviceset="DIODE-" device="SOD123" value="1n4148"/>
 <part name="U$22" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$23" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="R24" library="resistor" deviceset="R-EU_" device="R0603" value="330k"/>
@@ -22539,8 +22539,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="U$11" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$12" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0805"/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="6p"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="6p"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
@@ -22555,7 +22555,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="U$30" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$31" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="R0603"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="Y1" library="nixe_cmp" deviceset="ECS-.327-7-34B" device="" value=""/>
 <part name="BAT1" library="nixe_cmp" deviceset="CR2032" device=""/>
 <part name="J2" library="nixe_cmp" deviceset="RTC_CON" device="SMD" value=""/>
@@ -24208,10 +24208,20 @@ should be connected as follows:
 
 Note:
    Populate either R8 or R28, not both</text>
+<text x="226.06" y="-38.1" size="1.778" layer="91">C15;C16 = 2*Cload - 2*Cstray
+Cstray ~= 4pf
+
+https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-your-design/</text>
 </plain>
 <instances>
-<instance part="R11" gate="G$1" x="10.16" y="68.58" rot="R180"/>
-<instance part="R12" gate="G$1" x="10.16" y="63.5" rot="R180"/>
+<instance part="R11" gate="G$1" x="10.16" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.89" y="72.1614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="16.51" y="71.882" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R12" gate="G$1" x="10.16" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.89" y="62.0014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="13.97" y="61.722" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R13" gate="G$1" x="55.88" y="76.2" rot="R270"/>
 <instance part="R14" gate="G$1" x="66.04" y="53.34" rot="R180"/>
 <instance part="JP1" gate="A" x="53.34" y="17.78" rot="MR270"/>
@@ -25361,6 +25371,33 @@ Note:
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,4,294.64,-7.62,BAT1,-,GND,,,"/>
+<approved hash="204,4,294.64,0,BAT1,+,,,,"/>
+<approved hash="113,1,-27.94,162.755,SV1,,,,,"/>
+<approved hash="113,1,7.62,162.755,SV2,,,,,"/>
+<approved hash="113,1,40.64,162.755,SV3,,,,,"/>
+<approved hash="113,1,129.54,162.755,SV4,,,,,"/>
+<approved hash="113,1,165.1,162.755,SV5,,,,,"/>
+<approved hash="113,1,198.12,162.755,SV6,,,,,"/>
+<approved hash="113,4,54.0169,17.3905,JP1,,,,,"/>
+<approved hash="113,4,87.6977,79.4173,J1,,,,,"/>
+<approved hash="113,5,-0.194731,45.72,SV7,,,,,"/>
+<approved hash="113,5,68.3853,45.72,SV8,,,,,"/>
+<approved hash="113,5,134.425,45.72,SV9,,,,,"/>
+<approved hash="113,5,210.625,45.72,SV10,,,,,"/>
+<approved hash="113,5,276.665,45.72,SV11,,,,,"/>
+<approved hash="113,5,342.705,45.72,SV12,,,,,"/>
+<approved hash="113,4,52.518,51.0963,U1,,,,,"/>
+<approved hash="113,4,165.032,-13.3773,J3,,,,,"/>
+<approved hash="113,2,-45.1273,82.7955,J5,,,,,"/>
+<approved hash="113,4,65.1595,17.78,S2,,,,,"/>
+<approved hash="113,4,142.24,99.9405,S3,,,,,"/>
+<approved hash="113,4,142.24,82.1605,S4,,,,,"/>
+<approved hash="113,4,142.24,66.9205,S5,,,,,"/>
+<approved hash="113,4,142.24,51.6805,S6,,,,,"/>
+<approved hash="113,4,-20.32,77.0805,S1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

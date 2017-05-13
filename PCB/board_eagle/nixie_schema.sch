@@ -22905,7 +22905,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="78.74" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_1" class="0">
+<net name="HV_HA_9" class="0">
 <segment>
 <wire x1="-35.56" y1="162.56" x2="-38.1" y2="162.56" width="0.1524" layer="91"/>
 <label x="-38.1" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -22917,7 +22917,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="76.2" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_2" class="0">
+<net name="HV_HA_8" class="0">
 <segment>
 <wire x1="-35.56" y1="160.02" x2="-38.1" y2="160.02" width="0.1524" layer="91"/>
 <label x="-38.1" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -22929,7 +22929,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="73.66" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_3" class="0">
+<net name="HV_HA_7" class="0">
 <segment>
 <wire x1="-35.56" y1="157.48" x2="-38.1" y2="157.48" width="0.1524" layer="91"/>
 <label x="-38.1" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -22941,7 +22941,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="71.12" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_4" class="0">
+<net name="HV_HA_6" class="0">
 <segment>
 <wire x1="-35.56" y1="154.94" x2="-38.1" y2="154.94" width="0.1524" layer="91"/>
 <label x="-38.1" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -22953,7 +22953,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="68.58" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_5" class="0">
+<net name="HV_HA_1" class="0">
 <segment>
 <wire x1="-20.32" y1="165.1" x2="-17.78" y2="165.1" width="0.1524" layer="91"/>
 <label x="-17.78" y="165.1" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -22965,7 +22965,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="66.04" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_6" class="0">
+<net name="HV_HA_2" class="0">
 <segment>
 <wire x1="-20.32" y1="162.56" x2="-17.78" y2="162.56" width="0.1524" layer="91"/>
 <label x="-17.78" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -22977,7 +22977,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="63.5" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_7" class="0">
+<net name="HV_HA_3" class="0">
 <segment>
 <wire x1="-20.32" y1="160.02" x2="-17.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="-17.78" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -22989,7 +22989,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="60.96" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_8" class="0">
+<net name="HV_HA_4" class="0">
 <segment>
 <wire x1="-20.32" y1="157.48" x2="-17.78" y2="157.48" width="0.1524" layer="91"/>
 <label x="-17.78" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23001,7 +23001,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="55.88" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HA_9" class="0">
+<net name="HV_HA_5" class="0">
 <segment>
 <wire x1="-20.32" y1="154.94" x2="-17.78" y2="154.94" width="0.1524" layer="91"/>
 <label x="-17.78" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23025,7 +23025,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="76.2" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_1" class="0">
+<net name="HV_HB_9" class="0">
 <segment>
 <wire x1="0" y1="162.56" x2="-2.54" y2="162.56" width="0.1524" layer="91"/>
 <label x="-2.54" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23037,7 +23037,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="73.66" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_3" class="0">
+<net name="HV_HB_7" class="0">
 <segment>
 <wire x1="0" y1="157.48" x2="-2.54" y2="157.48" width="0.1524" layer="91"/>
 <label x="-2.54" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23049,7 +23049,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="68.58" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_2" class="0">
+<net name="HV_HB_8" class="0">
 <segment>
 <wire x1="0" y1="160.02" x2="-2.54" y2="160.02" width="0.1524" layer="91"/>
 <label x="-2.54" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23061,7 +23061,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="71.12" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_4" class="0">
+<net name="HV_HB_6" class="0">
 <segment>
 <wire x1="0" y1="154.94" x2="-2.54" y2="154.94" width="0.1524" layer="91"/>
 <label x="-2.54" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23073,7 +23073,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="66.04" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_5" class="0">
+<net name="HV_HB_1" class="0">
 <segment>
 <wire x1="15.24" y1="165.1" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
 <label x="17.78" y="165.1" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23085,7 +23085,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="38.1" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_6" class="0">
+<net name="HV_HB_2" class="0">
 <segment>
 <wire x1="15.24" y1="162.56" x2="17.78" y2="162.56" width="0.1524" layer="91"/>
 <label x="17.78" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23097,7 +23097,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="43.18" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_7" class="0">
+<net name="HV_HB_3" class="0">
 <segment>
 <wire x1="15.24" y1="160.02" x2="17.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="17.78" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23109,7 +23109,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="40.64" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_8" class="0">
+<net name="HV_HB_4" class="0">
 <segment>
 <wire x1="15.24" y1="157.48" x2="17.78" y2="157.48" width="0.1524" layer="91"/>
 <label x="17.78" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23121,7 +23121,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="15.24" y="45.72" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_HB_9" class="0">
+<net name="HV_HB_5" class="0">
 <segment>
 <wire x1="15.24" y1="154.94" x2="17.78" y2="154.94" width="0.1524" layer="91"/>
 <label x="17.78" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23145,7 +23145,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="50.8" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_1" class="0">
+<net name="HV_MA_9" class="0">
 <segment>
 <wire x1="33.02" y1="162.56" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
 <label x="30.48" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23157,7 +23157,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="53.34" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_2" class="0">
+<net name="HV_MA_8" class="0">
 <segment>
 <wire x1="33.02" y1="160.02" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
 <label x="30.48" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23169,7 +23169,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="55.88" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_3" class="0">
+<net name="HV_MA_7" class="0">
 <segment>
 <wire x1="33.02" y1="157.48" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 <label x="30.48" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23181,7 +23181,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="60.96" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_4" class="0">
+<net name="HV_MA_6" class="0">
 <segment>
 <wire x1="33.02" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 <label x="30.48" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23193,7 +23193,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="63.5" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_5" class="0">
+<net name="HV_MA_1" class="0">
 <segment>
 <wire x1="48.26" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
 <label x="50.8" y="165.1" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23205,7 +23205,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="48.26" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_6" class="0">
+<net name="HV_MA_2" class="0">
 <segment>
 <wire x1="48.26" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
 <label x="50.8" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23217,7 +23217,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="45.72" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_7" class="0">
+<net name="HV_MA_3" class="0">
 <segment>
 <wire x1="48.26" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
 <label x="50.8" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23229,7 +23229,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="43.18" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_8" class="0">
+<net name="HV_MA_4" class="0">
 <segment>
 <wire x1="50.8" y1="157.48" x2="48.26" y2="157.48" width="0.1524" layer="91"/>
 <label x="50.8" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23241,7 +23241,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="60.96" y="40.64" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MA_9" class="0">
+<net name="HV_MA_5" class="0">
 <segment>
 <wire x1="48.26" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
 <label x="50.8" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23265,7 +23265,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="68.58" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MB_1" class="0">
+<net name="HV_MB_9" class="0">
 <segment>
 <wire x1="121.92" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
 <label x="119.38" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23277,7 +23277,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="71.12" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MB_2" class="0">
+<net name="HV_MB_8" class="0">
 <segment>
 <wire x1="121.92" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
 <label x="119.38" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23289,7 +23289,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="73.66" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MB_3" class="0">
+<net name="HV_MB_7" class="0">
 <segment>
 <wire x1="121.92" y1="157.48" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 <label x="119.38" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23301,7 +23301,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="76.2" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MB_4" class="0">
+<net name="HV_MB_6" class="0">
 <segment>
 <wire x1="121.92" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
 <label x="119.38" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23313,7 +23313,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="78.74" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MB_5" class="0">
+<net name="HV_MB_1" class="0">
 <segment>
 <wire x1="137.16" y1="165.1" x2="139.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="139.7" y="165.1" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23325,19 +23325,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="63.5" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MB_6" class="0">
-<segment>
-<wire x1="137.16" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
-<label x="139.7" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
-<pinref part="SV4" gate="1" pin="7"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="HV8"/>
-<wire x1="106.68" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
-<label x="104.14" y="60.96" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="HV_MB_7" class="0">
+<net name="HV_MB_3" class="0">
 <segment>
 <wire x1="137.16" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
 <label x="139.7" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23349,7 +23337,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="55.88" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_MB_8" class="0">
+<net name="HV_MB_4" class="0">
 <segment>
 <wire x1="137.16" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
 <label x="139.7" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23359,18 +23347,6 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="U$2" gate="G$1" pin="HV10"/>
 <wire x1="106.68" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <label x="104.14" y="53.34" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="HV_MB_9" class="0">
-<segment>
-<wire x1="137.16" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
-<label x="139.7" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
-<pinref part="SV4" gate="1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="HV11"/>
-<wire x1="106.68" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
-<label x="104.14" y="50.8" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HV_SA_0" class="0">
@@ -23385,7 +23361,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="76.2" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SA_1" class="0">
+<net name="HV_SA_9" class="0">
 <segment>
 <wire x1="157.48" y1="162.56" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
 <label x="154.94" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23397,7 +23373,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="73.66" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SA_3" class="0">
+<net name="HV_SA_7" class="0">
 <segment>
 <wire x1="157.48" y1="157.48" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
 <label x="154.94" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23409,7 +23385,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="68.58" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SA_2" class="0">
+<net name="HV_SA_8" class="0">
 <segment>
 <wire x1="157.48" y1="160.02" x2="154.94" y2="160.02" width="0.1524" layer="91"/>
 <label x="154.94" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23421,31 +23397,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="71.12" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SA_4" class="0">
-<segment>
-<wire x1="157.48" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
-<label x="154.94" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
-<pinref part="SV5" gate="1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="HV22"/>
-<wire x1="147.32" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
-<label x="149.86" y="66.04" size="0.6096" layer="95" ratio="6" xref="yes"/>
-</segment>
-</net>
-<net name="HV_SA_5" class="0">
-<segment>
-<wire x1="172.72" y1="165.1" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
-<label x="175.26" y="165.1" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
-<pinref part="SV5" gate="1" pin="9"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="HV17"/>
-<wire x1="147.32" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
-<label x="149.86" y="78.74" size="0.6096" layer="95" ratio="6" xref="yes"/>
-</segment>
-</net>
-<net name="HV_SA_6" class="0">
+<net name="HV_SA_2" class="0">
 <segment>
 <wire x1="172.72" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
 <label x="175.26" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23457,7 +23409,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="38.1" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SA_7" class="0">
+<net name="HV_SA_3" class="0">
 <segment>
 <wire x1="172.72" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
 <label x="175.26" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23469,7 +23421,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="43.18" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SA_8" class="0">
+<net name="HV_SA_4" class="0">
 <segment>
 <wire x1="172.72" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <label x="175.26" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23481,7 +23433,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="104.14" y="40.64" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SA_9" class="0">
+<net name="HV_SA_5" class="0">
 <segment>
 <wire x1="172.72" y1="154.94" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
 <label x="175.26" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23505,7 +23457,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="50.8" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_1" class="0">
+<net name="HV_SB_9" class="0">
 <segment>
 <wire x1="190.5" y1="162.56" x2="187.96" y2="162.56" width="0.1524" layer="91"/>
 <label x="187.96" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23517,7 +23469,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="53.34" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_2" class="0">
+<net name="HV_SB_8" class="0">
 <segment>
 <wire x1="190.5" y1="160.02" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
 <label x="187.96" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23529,7 +23481,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="55.88" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_3" class="0">
+<net name="HV_SB_7" class="0">
 <segment>
 <wire x1="190.5" y1="157.48" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
 <label x="187.96" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23541,7 +23493,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="60.96" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_4" class="0">
+<net name="HV_SB_6" class="0">
 <segment>
 <wire x1="190.5" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
 <label x="187.96" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
@@ -23553,7 +23505,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="63.5" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_5" class="0">
+<net name="HV_SB_1" class="0">
 <segment>
 <wire x1="205.74" y1="165.1" x2="208.28" y2="165.1" width="0.1524" layer="91"/>
 <label x="208.28" y="165.1" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23565,7 +23517,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="38.1" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_6" class="0">
+<net name="HV_SB_2" class="0">
 <segment>
 <wire x1="205.74" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
 <label x="208.28" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23577,7 +23529,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="40.64" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_7" class="0">
+<net name="HV_SB_3" class="0">
 <segment>
 <wire x1="205.74" y1="160.02" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
 <label x="208.28" y="160.02" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23589,7 +23541,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="43.18" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_8" class="0">
+<net name="HV_SB_4" class="0">
 <segment>
 <wire x1="208.28" y1="157.48" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <label x="208.28" y="157.48" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23601,7 +23553,7 @@ R = (Vstrike - Vmaint)/Ic</text>
 <label x="149.86" y="45.72" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
-<net name="HV_SB_9" class="0">
+<net name="HV_SB_5" class="0">
 <segment>
 <wire x1="205.74" y1="154.94" x2="208.28" y2="154.94" width="0.1524" layer="91"/>
 <label x="208.28" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
@@ -23663,14 +23615,14 @@ R = (Vstrike - Vmaint)/Ic</text>
 </net>
 <net name="HV_HA_DP" class="0">
 <segment>
-<pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="-17.78" y1="180.34" x2="-17.78" y2="182.88" width="0.1524" layer="91"/>
-<label x="-17.78" y="182.88" size="0.6096" layer="95" ratio="6" rot="R90" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="HV11"/>
 <wire x1="17.78" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
 <label x="15.24" y="50.8" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="-17.78" y1="180.34" x2="-17.78" y2="182.88" width="0.1524" layer="91"/>
+<label x="-17.78" y="182.88" size="0.6096" layer="95" ratio="6" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="HV_HB_DP" class="0">
@@ -23740,6 +23692,54 @@ R = (Vstrike - Vmaint)/Ic</text>
 <pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="167.64" x2="139.7" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="167.64" x2="139.7" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HV_MB_5" class="0">
+<segment>
+<wire x1="137.16" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
+<label x="139.7" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="SV4" gate="1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="HV11"/>
+<wire x1="106.68" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+<label x="104.14" y="50.8" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HV_MB_2" class="0">
+<segment>
+<wire x1="137.16" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
+<label x="139.7" y="162.56" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="SV4" gate="1" pin="7"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="HV8"/>
+<wire x1="106.68" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+<label x="104.14" y="60.96" size="0.6096" layer="95" ratio="6" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HV_SA_6" class="0">
+<segment>
+<wire x1="157.48" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<label x="154.94" y="154.94" size="0.6096" layer="95" font="vector" ratio="6" rot="R180" xref="yes"/>
+<pinref part="SV5" gate="1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="HV22"/>
+<wire x1="147.32" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
+<label x="149.86" y="66.04" size="0.6096" layer="95" ratio="6" xref="yes"/>
+</segment>
+</net>
+<net name="HV_SA_1" class="0">
+<segment>
+<wire x1="172.72" y1="165.1" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
+<label x="175.26" y="165.1" size="0.6096" layer="95" font="vector" ratio="6" xref="yes"/>
+<pinref part="SV5" gate="1" pin="9"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="HV17"/>
+<wire x1="147.32" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
+<label x="149.86" y="78.74" size="0.6096" layer="95" ratio="6" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -24710,10 +24710,8 @@ Note:
 <net name="N$10" class="2">
 <segment>
 <pinref part="SV7" gate="1" pin="12"/>
-<wire x1="-5.08" y1="35.56" x2="-5.08" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="35.56" x2="-5.08" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="35.56" x2="-10.16" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-15.24" x2="-10.16" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="38.1" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-15.24" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="N1" gate="G$1" pin="A"/>
 <wire x1="25.4" y1="-15.24" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 </segment>
@@ -24752,51 +24750,6 @@ Note:
 <wire x1="302.26" y1="-15.24" x2="271.78" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="N5" gate="G$1" pin="A"/>
 <wire x1="302.26" y1="-15.24" x2="302.26" y2="2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$94" class="0">
-<segment>
-<pinref part="N1" gate="G$1" pin="RHDP"/>
-<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="SV7" gate="1" pin="10"/>
-<wire x1="-2.54" y1="38.1" x2="-2.54" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-2.54" x2="15.24" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="N1" gate="G$1" pin="0"/>
-<wire x1="15.24" y1="20.32" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="SV7" gate="1" pin="8"/>
-<wire x1="0" y1="25.4" x2="0" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="SV7" gate="1" pin="6"/>
-<wire x1="2.54" y1="38.1" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="9"/>
-<wire x1="2.54" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="27.94" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="SV7" gate="1" pin="4"/>
-<wire x1="5.08" y1="38.1" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="8"/>
-<wire x1="5.08" y1="30.48" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="30.48" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="SV7" gate="1" pin="2"/>
-<wire x1="7.62" y1="38.1" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="7"/>
-<wire x1="7.62" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="33.02" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -24844,31 +24797,565 @@ Note:
 <wire x1="27.94" y1="55.88" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="SV8" gate="1" pin="1"/>
+<wire x1="76.2" y1="53.34" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="5"/>
+<wire x1="76.2" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="55.88" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="N2" gate="G$1" pin="4"/>
+<wire x1="99.06" y1="20.32" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SV8" gate="1" pin="3"/>
+<wire x1="99.06" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="58.42" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="SV8" gate="1" pin="5"/>
+<wire x1="71.12" y1="53.34" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="3"/>
+<wire x1="71.12" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="60.96" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="N2" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="20.32" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SV8" gate="1" pin="7"/>
+<wire x1="104.14" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="63.5" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="SV8" gate="1" pin="9"/>
+<wire x1="66.04" y1="53.34" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="66.04" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="SV9" gate="1" pin="1"/>
+<wire x1="142.24" y1="53.34" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="5"/>
+<wire x1="142.24" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="55.88" x2="170.18" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="N3" gate="G$1" pin="4"/>
+<wire x1="172.72" y1="20.32" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SV9" gate="1" pin="3"/>
+<wire x1="172.72" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="58.42" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="SV9" gate="1" pin="5"/>
+<wire x1="137.16" y1="53.34" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="3"/>
+<wire x1="137.16" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="60.96" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="N3" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="20.32" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SV9" gate="1" pin="7"/>
+<wire x1="177.8" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="63.5" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$53" class="0">
+<segment>
+<pinref part="SV9" gate="1" pin="9"/>
+<wire x1="132.08" y1="53.34" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="66.04" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="SV10" gate="1" pin="1"/>
+<wire x1="218.44" y1="53.34" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="5"/>
+<wire x1="218.44" y1="55.88" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="55.88" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="N4" gate="G$1" pin="4"/>
+<wire x1="241.3" y1="20.32" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SV10" gate="1" pin="3"/>
+<wire x1="241.3" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="58.42" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<pinref part="SV10" gate="1" pin="5"/>
+<wire x1="213.36" y1="53.34" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="3"/>
+<wire x1="213.36" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="60.96" x2="243.84" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$62" class="0">
+<segment>
+<pinref part="N4" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="20.32" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SV10" gate="1" pin="7"/>
+<wire x1="246.38" y1="63.5" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="63.5" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$63" class="0">
+<segment>
+<pinref part="SV10" gate="1" pin="9"/>
+<wire x1="208.28" y1="53.34" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="66.04" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="SV11" gate="1" pin="1"/>
+<wire x1="284.48" y1="53.34" x2="284.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="5"/>
+<wire x1="284.48" y1="55.88" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="55.88" x2="304.8" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="N5" gate="G$1" pin="4"/>
+<wire x1="307.34" y1="20.32" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="1" pin="3"/>
+<wire x1="307.34" y1="58.42" x2="281.94" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="58.42" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$71" class="0">
+<segment>
+<pinref part="SV11" gate="1" pin="5"/>
+<wire x1="279.4" y1="53.34" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="3"/>
+<wire x1="279.4" y1="60.96" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="60.96" x2="309.88" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="N5" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="20.32" x2="312.42" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="1" pin="7"/>
+<wire x1="312.42" y1="63.5" x2="276.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="63.5" x2="276.86" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$73" class="0">
+<segment>
+<pinref part="SV11" gate="1" pin="9"/>
+<wire x1="274.32" y1="53.34" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="66.04" x2="314.96" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="66.04" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="SV12" gate="1" pin="1"/>
+<wire x1="350.52" y1="53.34" x2="350.52" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="5"/>
+<wire x1="350.52" y1="55.88" x2="378.46" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="55.88" x2="378.46" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$81" class="0">
+<segment>
+<pinref part="N6" gate="G$1" pin="4"/>
+<wire x1="381" y1="20.32" x2="381" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="SV12" gate="1" pin="3"/>
+<wire x1="381" y1="58.42" x2="347.98" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="58.42" x2="347.98" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<pinref part="SV12" gate="1" pin="5"/>
+<wire x1="345.44" y1="53.34" x2="345.44" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="3"/>
+<wire x1="345.44" y1="60.96" x2="383.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="60.96" x2="383.54" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="N6" gate="G$1" pin="2"/>
+<wire x1="386.08" y1="20.32" x2="386.08" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SV12" gate="1" pin="7"/>
+<wire x1="386.08" y1="63.5" x2="342.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="63.5" x2="342.9" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="SV12" gate="1" pin="9"/>
+<wire x1="340.36" y1="53.34" x2="340.36" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="66.04" x2="388.62" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="66.04" x2="388.62" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$30" class="0">
 <segment>
+<pinref part="N1" gate="G$1" pin="RHDP"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="0" x2="-12.7" y2="0" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SV7" gate="1" pin="11"/>
-<wire x1="-5.08" y1="53.34" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="55.88" x2="-5.08" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="SV7" gate="1" pin="2"/>
+<wire x1="7.62" y1="38.1" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="N1" gate="G$1" pin="6"/>
-<wire x1="-5.08" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="68.58" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="33.02" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="7"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SV7" gate="1" pin="4"/>
+<wire x1="22.86" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="30.48" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="SV7" gate="1" pin="6"/>
+<wire x1="2.54" y1="38.1" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="8"/>
+<wire x1="2.54" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="27.94" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="N1" gate="G$1" pin="9"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SV7" gate="1" pin="8"/>
+<wire x1="17.78" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="0" y1="25.4" x2="0" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$94" class="0">
+<segment>
+<pinref part="SV7" gate="1" pin="10"/>
+<wire x1="-2.54" y1="38.1" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="0"/>
+<wire x1="-2.54" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="SV8" gate="1" pin="10"/>
-<wire x1="66.04" y1="38.1" x2="66.04" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="N2" gate="G$1" pin="RHDP"/>
-<wire x1="66.04" y1="-2.54" x2="83.82" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="-2.54" x2="83.82" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="2.54" x2="83.82" y2="0" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="0" x2="55.88" y2="0" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="0" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="SV8" gate="1" pin="11"/>
+<wire x1="55.88" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="55.88" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="SV9" gate="1" pin="10"/>
-<wire x1="132.08" y1="38.1" x2="132.08" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="SV8" gate="1" pin="2"/>
+<wire x1="76.2" y1="38.1" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="6"/>
+<wire x1="76.2" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="33.02" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="N2" gate="G$1" pin="7"/>
+<wire x1="91.44" y1="20.32" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SV8" gate="1" pin="4"/>
+<wire x1="91.44" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="30.48" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="SV8" gate="1" pin="6"/>
+<wire x1="71.12" y1="38.1" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="8"/>
+<wire x1="71.12" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="27.94" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="N2" gate="G$1" pin="9"/>
+<wire x1="86.36" y1="20.32" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SV8" gate="1" pin="8"/>
+<wire x1="86.36" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="25.4" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="SV8" gate="1" pin="10"/>
+<wire x1="66.04" y1="38.1" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="0"/>
+<wire x1="66.04" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="22.86" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
 <pinref part="N3" gate="G$1" pin="RHDP"/>
-<wire x1="132.08" y1="-2.54" x2="157.48" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="-2.54" x2="157.48" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="2.54" x2="157.48" y2="0" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="0" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="SV9" gate="1" pin="11"/>
+<wire x1="121.92" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="55.88" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="SV9" gate="1" pin="2"/>
+<wire x1="142.24" y1="38.1" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="6"/>
+<wire x1="142.24" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="33.02" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="N3" gate="G$1" pin="7"/>
+<wire x1="165.1" y1="20.32" x2="165.1" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SV9" gate="1" pin="4"/>
+<wire x1="165.1" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="30.48" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="SV9" gate="1" pin="6"/>
+<wire x1="137.16" y1="38.1" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="8"/>
+<wire x1="137.16" y1="27.94" x2="162.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="27.94" x2="162.56" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="N3" gate="G$1" pin="9"/>
+<wire x1="160.02" y1="20.32" x2="160.02" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SV9" gate="1" pin="8"/>
+<wire x1="160.02" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="25.4" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="SV9" gate="1" pin="10"/>
+<wire x1="132.08" y1="38.1" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="0"/>
+<wire x1="132.08" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="22.86" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="SV10" gate="1" pin="11"/>
+<wire x1="205.74" y1="53.34" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="55.88" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="55.88" x2="200.66" y2="0" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="RHDP"/>
+<wire x1="200.66" y1="0" x2="226.06" y2="0" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="0" x2="226.06" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="SV10" gate="1" pin="2"/>
+<wire x1="218.44" y1="38.1" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="6"/>
+<wire x1="218.44" y1="33.02" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="33.02" x2="236.22" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<pinref part="N4" gate="G$1" pin="7"/>
+<wire x1="233.68" y1="20.32" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SV10" gate="1" pin="4"/>
+<wire x1="233.68" y1="30.48" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="30.48" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="SV10" gate="1" pin="6"/>
+<wire x1="213.36" y1="38.1" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="8"/>
+<wire x1="213.36" y1="27.94" x2="231.14" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="27.94" x2="231.14" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="N4" gate="G$1" pin="9"/>
+<wire x1="228.6" y1="20.32" x2="228.6" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SV10" gate="1" pin="8"/>
+<wire x1="228.6" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="25.4" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<pinref part="SV10" gate="1" pin="10"/>
+<wire x1="208.28" y1="38.1" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="0"/>
+<wire x1="208.28" y1="22.86" x2="226.06" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="22.86" x2="226.06" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<pinref part="N5" gate="G$1" pin="RHDP"/>
+<wire x1="292.1" y1="2.54" x2="292.1" y2="0" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="0" x2="264.16" y2="0" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="0" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="1" pin="11"/>
+<wire x1="264.16" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="55.88" x2="271.78" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$64" class="0">
+<segment>
+<pinref part="SV11" gate="1" pin="2"/>
+<wire x1="284.48" y1="38.1" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="6"/>
+<wire x1="284.48" y1="33.02" x2="302.26" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="33.02" x2="302.26" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$65" class="0">
+<segment>
+<pinref part="N5" gate="G$1" pin="7"/>
+<wire x1="299.72" y1="20.32" x2="299.72" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="1" pin="4"/>
+<wire x1="299.72" y1="30.48" x2="281.94" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="30.48" x2="281.94" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="SV11" gate="1" pin="6"/>
+<wire x1="279.4" y1="38.1" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="8"/>
+<wire x1="279.4" y1="27.94" x2="297.18" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="27.94" x2="297.18" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$67" class="0">
+<segment>
+<pinref part="N5" gate="G$1" pin="9"/>
+<wire x1="294.64" y1="20.32" x2="294.64" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SV11" gate="1" pin="8"/>
+<wire x1="294.64" y1="25.4" x2="276.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="25.4" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="SV11" gate="1" pin="10"/>
+<wire x1="274.32" y1="38.1" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="0"/>
+<wire x1="274.32" y1="22.86" x2="292.1" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="22.86" x2="292.1" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<pinref part="N6" gate="G$1" pin="RHDP"/>
+<wire x1="365.76" y1="2.54" x2="365.76" y2="0" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="0" x2="330.2" y2="0" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="0" x2="330.2" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="SV12" gate="1" pin="11"/>
+<wire x1="330.2" y1="55.88" x2="337.82" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="55.88" x2="337.82" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="SV12" gate="1" pin="2"/>
+<wire x1="350.52" y1="38.1" x2="350.52" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="6"/>
+<wire x1="350.52" y1="33.02" x2="375.92" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="33.02" x2="375.92" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<pinref part="N6" gate="G$1" pin="7"/>
+<wire x1="373.38" y1="20.32" x2="373.38" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="SV12" gate="1" pin="4"/>
+<wire x1="373.38" y1="30.48" x2="347.98" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="30.48" x2="347.98" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$78" class="0">
+<segment>
+<pinref part="SV12" gate="1" pin="6"/>
+<wire x1="345.44" y1="38.1" x2="345.44" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="8"/>
+<wire x1="345.44" y1="27.94" x2="370.84" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="27.94" x2="370.84" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$79" class="0">
+<segment>
+<pinref part="N6" gate="G$1" pin="9"/>
+<wire x1="368.3" y1="20.32" x2="368.3" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SV12" gate="1" pin="8"/>
+<wire x1="368.3" y1="25.4" x2="342.9" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="25.4" x2="342.9" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$86" class="0">
+<segment>
+<pinref part="SV12" gate="1" pin="10"/>
+<wire x1="340.36" y1="38.1" x2="340.36" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="0"/>
+<wire x1="340.36" y1="22.86" x2="365.76" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="22.86" x2="365.76" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

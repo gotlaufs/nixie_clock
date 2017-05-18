@@ -1,7 +1,8 @@
 # For EAGLE CAD
-# Temp files
+# Backup files
 *.s#*
 *.b#*
+*.l#*
 
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 

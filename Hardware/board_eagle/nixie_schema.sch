@@ -21878,6 +21878,22 @@ Metric Code Size 2012</description>
 <wire x1="-7.62" y1="-17.78" x2="-12.7" y2="-12.7" width="0.254" layer="94" curve="-90"/>
 <wire x1="-12.7" y1="10.16" x2="-7.62" y2="15.24" width="0.254" layer="94" curve="-90"/>
 </symbol>
+<symbol name="1V5">
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="1V5" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="-2.54" y="3.81" size="2.032" layer="94">1V5</text>
+</symbol>
+<symbol name="VREG">
+<wire x1="-5.08" y1="3.81" x2="7.62" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="3.81" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND/ADJ" x="2.54" y="-5.08" visible="pad" length="short" direction="in" rot="R90"/>
+<pin name="IN" x="-7.62" y="2.54" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BAS21">
@@ -22215,6 +22231,37 @@ IV-11: Medium 7-segment &lt;b&gt;frontview&lt;/b&gt; VFD tube
 <connect gate="G$1" pin="A(A)" pad="A(A)"/>
 <connect gate="G$1" pin="LHDP(G)" pad="LHDP(G)"/>
 <connect gate="G$1" pin="RHDP(NC)" pad="RHDP(NC)"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1V5">
+<gates>
+<gate name="G$1" symbol="1V5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VREG" prefix="U" uservalue="yes">
+<description>&lt;b&gt;Generic linear voltage regulator&lt;/b&gt;
+&lt;p&gt;Most of them have the same pinout anyway...&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VREG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND/ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -22715,13 +22762,22 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="U$38" library="PatternAgents-Beautify" deviceset="GND" device=""/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="N1" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
 <part name="N2" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
 <part name="N3" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
 <part name="N4" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
 <part name="N5" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
 <part name="N6" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="D5" library="nixe_cmp" deviceset="B230A-13-F" device=""/>
+<part name="D6" library="nixe_cmp" deviceset="B230A-13-F" device=""/>
+<part name="D7" library="nixe_cmp" deviceset="B230A-13-F" device=""/>
+<part name="U$39" library="nixe_cmp" deviceset="1V5" device=""/>
+<part name="U$40" library="PatternAgents-Beautify" deviceset="GND" device=""/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-1014" value="10u"/>
+<part name="U$41" library="PatternAgents-Beautify" deviceset="GND" device=""/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="U$42" library="PatternAgents-Beautify" deviceset="GND" device=""/>
+<part name="U3" library="nixe_cmp" deviceset="VREG" device="" value="1V5"/>
 </parts>
 <sheets>
 <sheet>
@@ -23895,7 +23951,7 @@ Second output cap optional
 Inductor:
    &gt;0.5A cont, &gt;1A peak
    &gt;=100 uH</text>
-<text x="269.24" y="76.2" size="1.778" layer="91">Power connector for
+<text x="269.24" y="76.2" size="1.778" layer="91">Power connector to
 the daughter board</text>
 </plain>
 <instances>
@@ -24918,6 +24974,16 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <sheet>
 <description>Daugther board for Nixies</description>
 <plain>
+<text x="-96.52" y="-76.2" size="1.778" layer="91">Power connector
+from the logic board.
++3V3 and +12V available</text>
+<text x="-43.18" y="-63.5" size="1.778" layer="91">Solder apropriate
+diodes to have a
+total voltage drop
+of Vf = 1.8 V @ 0.6 A</text>
+<text x="-2.54" y="-96.52" size="1.778" layer="91">Or use a 1.5 V SOT-223
+linear regulator with
+dropout Vf &lt; 1.8 V @ 0.6 A</text>
 </plain>
 <instances>
 <instance part="SV7" gate="1" x="0" y="45.72" rot="R90"/>
@@ -24926,15 +24992,33 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <instance part="SV10" gate="1" x="210.82" y="45.72" rot="R90"/>
 <instance part="SV11" gate="1" x="276.86" y="45.72" rot="R90"/>
 <instance part="SV12" gate="1" x="342.9" y="45.72" rot="R90"/>
-<instance part="J7" gate="J$1" x="-48.26" y="30.48" rot="R180"/>
-<instance part="U$38" gate="G$1" x="-58.42" y="-12.7"/>
-<instance part="SUPPLY11" gate="G$1" x="-58.42" y="66.04"/>
+<instance part="J7" gate="J$1" x="-55.88" y="-73.66" rot="MR180"/>
+<instance part="U$38" gate="G$1" x="-48.26" y="-116.84"/>
 <instance part="N1" gate="G$1" x="27.94" y="5.08" rot="R270"/>
 <instance part="N2" gate="G$1" x="96.52" y="5.08" rot="R270"/>
 <instance part="N3" gate="G$1" x="170.18" y="5.08" rot="R270"/>
 <instance part="N4" gate="G$1" x="238.76" y="5.08" rot="R270"/>
 <instance part="N5" gate="G$1" x="304.8" y="5.08" rot="R270"/>
 <instance part="N6" gate="G$1" x="378.46" y="5.08" rot="R270"/>
+<instance part="D5" gate="G$1" x="-25.4" y="-73.66" smashed="yes">
+<attribute name="NAME" x="-27.7114" y="-71.0184" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-27.3558" y="-76.1746" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D6" gate="G$1" x="-17.78" y="-73.66" smashed="yes">
+<attribute name="NAME" x="-20.0914" y="-71.0184" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-19.7358" y="-76.1746" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="D7" gate="G$1" x="-10.16" y="-73.66" smashed="yes">
+<attribute name="NAME" x="-12.4714" y="-71.0184" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-12.1158" y="-76.1746" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="U$39" gate="G$1" x="-5.08" y="-53.34"/>
+<instance part="U$40" gate="G$1" x="-17.78" y="-116.84"/>
+<instance part="C19" gate="G$1" x="-5.08" y="-106.68"/>
+<instance part="U$41" gate="G$1" x="-5.08" y="-116.84"/>
+<instance part="C20" gate="G$1" x="-33.02" y="-106.68"/>
+<instance part="U$42" gate="G$1" x="-33.02" y="-116.84"/>
+<instance part="U3" gate="G$1" x="-20.32" y="-99.06"/>
 </instances>
 <busses>
 </busses>
@@ -25599,29 +25683,70 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="N6" gate="G$1" pin="0(B)"/>
 </segment>
 </net>
-<net name="+3V3" class="3">
-<segment>
-<wire x1="-55.88" y1="30.48" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="30.48" x2="-60.96" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="38.1" x2="-71.12" y2="38.1" width="0.1524" layer="91"/>
-<label x="-71.12" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="J7" gate="J$1" pin="2"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="U$38" gate="G$1" pin="GND"/>
-<wire x1="-58.42" y1="-12.7" x2="-58.42" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="27.94" x2="-55.88" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="-116.84" x2="-48.26" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="J7" gate="J$1" pin="3"/>
 </segment>
-</net>
-<net name="VCC" class="1">
 <segment>
-<pinref part="SUPPLY11" gate="G$1" pin="VCC"/>
-<wire x1="-58.42" y1="66.04" x2="-58.42" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="33.02" x2="-55.88" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="J7" gate="J$1" pin="1"/>
+<pinref part="U$40" gate="G$1" pin="GND"/>
+<wire x1="-17.78" y1="-116.84" x2="-17.78" y2="-104.14" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="GND/ADJ"/>
+</segment>
+<segment>
+<pinref part="U$41" gate="G$1" pin="GND"/>
+<pinref part="C19" gate="G$1" pin="-"/>
+<wire x1="-5.08" y1="-116.84" x2="-5.08" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$42" gate="G$1" pin="GND"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="-33.02" y1="-116.84" x2="-33.02" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$101" class="0">
+<segment>
+<pinref part="J7" gate="J$1" pin="2"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="-48.26" y1="-73.66" x2="-33.02" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-73.66" x2="-27.94" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-96.52" x2="-33.02" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-96.52" x2="-33.02" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-73.66"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="-33.02" y1="-104.14" x2="-33.02" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-96.52"/>
+<pinref part="U3" gate="G$1" pin="IN"/>
+</segment>
+</net>
+<net name="N$104" class="0">
+<segment>
+<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="-22.86" y1="-73.66" x2="-20.32" y2="-73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$105" class="0">
+<segment>
+<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="-15.24" y1="-73.66" x2="-12.7" y2="-73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="1V5" class="0">
+<segment>
+<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="U$39" gate="G$1" pin="1V5"/>
+<wire x1="-7.62" y1="-73.66" x2="-5.08" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-73.66" x2="-5.08" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-96.52" x2="-5.08" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-96.52" x2="-5.08" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-73.66"/>
+<pinref part="C19" gate="G$1" pin="+"/>
+<wire x1="-5.08" y1="-104.14" x2="-5.08" y2="-96.52" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-96.52"/>
+<pinref part="U3" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 </nets>

@@ -20734,93 +20734,6 @@ Alternate pin configuration
 </deviceset>
 </devicesets>
 </library>
-<library name="russian-nixies">
-<description>&lt;b&gt;Russian IN series nixie tubes&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Measurements taken from nixies in my collection
-&lt;li&gt;http://www.tube-tester.com
-&lt;/ul&gt;&lt;br&gt;
-&lt;author&gt;Created by p.s.troost@student.tue.nl&lt;/author&gt;</description>
-<packages>
-<package name="IN-14">
-<wire x1="-7.62" y1="-0.1588" x2="7.6201" y2="0" width="0.254" layer="21" curve="-180"/>
-<circle x="0" y="0" radius="8.8744" width="0.254" layer="21"/>
-<pad name="A" x="0" y="-6.1899" drill="0.84"/>
-<pad name="LHDP" x="2.8766" y="-5.4809" drill="0.84"/>
-<pad name="1" x="5.0942" y="-3.5163" drill="0.84"/>
-<pad name="2" x="6.1448" y="-0.7461" drill="0.84"/>
-<pad name="3" x="5.7877" y="2.195" drill="0.84"/>
-<pad name="4" x="4.1047" y="4.6332" drill="0.84"/>
-<pad name="5" x="1.4813" y="6.0101" drill="0.84"/>
-<pad name="6" x="-1.4813" y="6.0101" drill="0.84"/>
-<pad name="7" x="-4.1047" y="4.6332" drill="0.84"/>
-<pad name="8" x="-5.7877" y="2.195" drill="0.84"/>
-<pad name="9" x="-6.1448" y="-0.7461" drill="0.84"/>
-<pad name="0" x="-5.0942" y="-3.5163" drill="0.84"/>
-<pad name="RHDP" x="-2.8766" y="-5.4809" drill="0.84"/>
-<text x="11.2713" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-2.5" y="9.5" size="1.27" layer="51">FRONT</text>
-<wire x1="0" y1="-3" x2="0" y2="2.5" width="0.127" layer="21"/>
-<wire x1="0" y1="-3" x2="0.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-1.5" x2="-0.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-1.5" x2="0" y2="-3" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="IN-14">
-<wire x1="-5.08" y1="-13.335" x2="-5.08" y2="10.795" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-13.335" x2="7.62" y2="-13.335" width="0.4064" layer="94" curve="180"/>
-<wire x1="7.62" y1="-13.335" x2="7.62" y2="10.795" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="10.795" x2="7.62" y2="10.795" width="0.4064" layer="94" curve="-180"/>
-<text x="-2.54" y="18.415" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="-7.62" y="10.16" visible="pin" length="short"/>
-<pin name="2" x="-7.62" y="7.62" visible="pin" length="short"/>
-<pin name="3" x="-7.62" y="5.08" visible="pin" length="short"/>
-<pin name="4" x="-7.62" y="2.54" visible="pin" length="short"/>
-<pin name="5" x="-7.62" y="0" visible="pin" length="short"/>
-<pin name="6" x="-7.62" y="-2.54" visible="pin" length="short"/>
-<pin name="7" x="-7.62" y="-5.08" visible="pin" length="short"/>
-<pin name="8" x="-7.62" y="-7.62" visible="pin" length="short"/>
-<pin name="9" x="-7.62" y="-10.16" visible="pin" length="short"/>
-<pin name="0" x="-7.62" y="-12.7" visible="pin" length="short"/>
-<pin name="RHDP" x="10.16" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="A" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="LHDP" x="10.16" y="10.16" visible="pin" length="short" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IN-14_FIXED" prefix="N">
-<description>IN-14: medium numeric &lt;b&gt;frontview&lt;/b&gt; nixie tube</description>
-<gates>
-<gate name="G$1" symbol="IN-14" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="IN-14">
-<connects>
-<connect gate="G$1" pin="0" pad="0"/>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="LHDP" pad="LHDP"/>
-<connect gate="G$1" pin="RHDP" pad="RHDP"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MC34063">
 <packages>
 <package name="SOIC08">
@@ -21671,6 +21584,42 @@ Metric Code Size 2012</description>
 <rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
+<package name="IN-14_IV-11">
+<wire x1="-7.62" y1="-0.1588" x2="7.6201" y2="0" width="0.254" layer="21" curve="-180"/>
+<circle x="0" y="0" radius="8.8744" width="0.254" layer="21"/>
+<pad name="A(NC)" x="0" y="-6.1899" drill="0.84"/>
+<pad name="LHDP(CAT)" x="2.8766" y="-5.4809" drill="0.84"/>
+<pad name="1(GRID)" x="5.0942" y="-3.5163" drill="0.84"/>
+<pad name="2(C)" x="6.1448" y="-0.7461" drill="0.84"/>
+<pad name="3(DP)" x="5.7877" y="2.195" drill="0.84"/>
+<pad name="4(B)" x="4.1047" y="4.6332" drill="0.84"/>
+<pad name="5(A)" x="1.4813" y="6.0101" drill="0.84"/>
+<pad name="6(G)" x="-1.4813" y="6.0101" drill="0.84"/>
+<pad name="7(F)" x="-4.1047" y="4.6332" drill="0.84"/>
+<pad name="8(E)" x="-5.7877" y="2.195" drill="0.84"/>
+<pad name="9(D)" x="-6.1448" y="-0.7461" drill="0.84"/>
+<pad name="0(CAT)" x="-5.0942" y="-3.5163" drill="0.84"/>
+<pad name="RHDP(NC)" x="-2.8766" y="-5.4809" drill="0.84"/>
+<text x="11.2713" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-2.5" y="9.5" size="1.27" layer="51">FRONT</text>
+<wire x1="0" y1="-3" x2="0" y2="2.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-3" x2="0.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="-1.5" x2="-0.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1.5" x2="0" y2="-3" width="0.127" layer="21"/>
+<text x="-0.254" y="-5.334" size="0.8128" layer="51">1</text>
+<text x="2.286" y="-4.572" size="0.8128" layer="51">2</text>
+<text x="4.064" y="-2.794" size="0.8128" layer="51">3</text>
+<text x="4.826" y="-1.016" size="0.8128" layer="51">4</text>
+<text x="4.572" y="1.524" size="0.8128" layer="51">5</text>
+<text x="2.794" y="3.556" size="0.8128" layer="51">6</text>
+<text x="0.762" y="4.572" size="0.8128" layer="51">7</text>
+<text x="-1.27" y="4.572" size="0.8128" layer="51">8</text>
+<text x="-3.302" y="3.81" size="0.8128" layer="51">9</text>
+<text x="-5.08" y="1.524" size="0.8128" layer="51">10</text>
+<text x="-5.334" y="-1.016" size="0.8128" layer="51">11</text>
+<text x="-4.572" y="-2.794" size="0.8128" layer="51">12</text>
+<text x="-3.81" y="-4.572" size="0.8128" layer="51">13</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -21900,6 +21849,34 @@ Metric Code Size 2012</description>
 </polygon>
 <wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="IN-14_IV-11">
+<wire x1="-5.08" y1="-13.335" x2="-5.08" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="10.795" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="-13.335" x2="20.32" y2="-12.7" width="0.4064" layer="94"/>
+<text x="2.54" y="15.875" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1(GRID)" x="-7.62" y="10.16" visible="pin" length="short"/>
+<pin name="2(C)" x="-7.62" y="7.62" visible="pin" length="short"/>
+<pin name="3(DP)" x="-7.62" y="5.08" visible="pin" length="short"/>
+<pin name="4(B)" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="5(A)" x="-7.62" y="0" visible="pin" length="short"/>
+<pin name="6(G)" x="-7.62" y="-2.54" visible="pin" length="short"/>
+<pin name="7(F)" x="-7.62" y="-5.08" visible="pin" length="short"/>
+<pin name="8(E)" x="-7.62" y="-7.62" visible="pin" length="short"/>
+<pin name="9(D)" x="-7.62" y="-10.16" visible="pin" length="short"/>
+<pin name="0(CAT)" x="-7.62" y="-12.7" visible="pin" length="short"/>
+<pin name="RHDP(NC)" x="22.86" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="A(NC)" x="22.86" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="LHDP(CAT)" x="22.86" y="10.16" visible="pin" length="short" rot="R180"/>
+<wire x1="20.32" y1="-12.7" x2="20.32" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="10.16" x2="20.32" y2="10.795" width="0.4064" layer="94"/>
+<wire x1="0" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="20.32" y2="10.16" width="0.254" layer="94" curve="-90"/>
+<wire x1="20.32" y1="-12.7" x2="15.24" y2="-17.78" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-17.78" x2="-5.08" y2="-12.7" width="0.254" layer="94" curve="-90"/>
+<wire x1="-5.08" y1="10.16" x2="0" y2="15.24" width="0.254" layer="94" curve="-90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -22206,6 +22183,41 @@ Metric Code Size 2012</description>
 <attribute name="I_D" value="&gt;1.5 A" constant="no"/>
 <attribute name="V_DS" value="&gt;220 V" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IN-14_IV-11_COMBI" prefix="N">
+<description>&lt;b&gt;Combination between IN-14 and IV-11 Russian tubes&lt;/b&gt;
+
+&lt;p&gt;
+IN-14: medium numeric &lt;b&gt;frontview&lt;/b&gt; nixie tube
+&lt;/p&gt;
+&lt;p&gt;
+IV-11: Medium 7-segment &lt;b&gt;frontview&lt;/b&gt; VFD tube
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="IN-14_IV-11" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="IN-14_IV-11">
+<connects>
+<connect gate="G$1" pin="0(CAT)" pad="0(CAT)"/>
+<connect gate="G$1" pin="1(GRID)" pad="1(GRID)"/>
+<connect gate="G$1" pin="2(C)" pad="2(C)"/>
+<connect gate="G$1" pin="3(DP)" pad="3(DP)"/>
+<connect gate="G$1" pin="4(B)" pad="4(B)"/>
+<connect gate="G$1" pin="5(A)" pad="5(A)"/>
+<connect gate="G$1" pin="6(G)" pad="6(G)"/>
+<connect gate="G$1" pin="7(F)" pad="7(F)"/>
+<connect gate="G$1" pin="8(E)" pad="8(E)"/>
+<connect gate="G$1" pin="9(D)" pad="9(D)"/>
+<connect gate="G$1" pin="A(NC)" pad="A(NC)"/>
+<connect gate="G$1" pin="LHDP(CAT)" pad="LHDP(CAT)"/>
+<connect gate="G$1" pin="RHDP(NC)" pad="RHDP(NC)"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -22583,15 +22595,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="SV7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device=""/>
 <part name="SV8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device=""/>
 <part name="SV9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device=""/>
-<part name="N1" library="russian-nixies" deviceset="IN-14_FIXED" device=""/>
-<part name="N2" library="russian-nixies" deviceset="IN-14_FIXED" device=""/>
-<part name="N3" library="russian-nixies" deviceset="IN-14_FIXED" device=""/>
 <part name="SV10" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device=""/>
 <part name="SV11" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device=""/>
 <part name="SV12" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device=""/>
-<part name="N4" library="russian-nixies" deviceset="IN-14_FIXED" device=""/>
-<part name="N5" library="russian-nixies" deviceset="IN-14_FIXED" device=""/>
-<part name="N6" library="russian-nixies" deviceset="IN-14_FIXED" device=""/>
 <part name="U$18" library="MC34063" deviceset="MC34063" device=""/>
 <part name="R21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="U$19" library="PatternAgents-Beautify" deviceset="GND" device=""/>
@@ -22704,6 +22710,12 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="Q5" library="nixe_cmp" deviceset="NTF5P03" device=""/>
 <part name="U$35" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$36" library="nixe_cmp" deviceset="IPN60R3K4CE_NMOS" device=""/>
+<part name="N1" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N2" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N3" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N4" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N5" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N6" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24881,12 +24893,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <instance part="SV7" gate="1" x="0" y="45.72" rot="R90"/>
 <instance part="SV8" gate="1" x="68.58" y="45.72" rot="R90"/>
 <instance part="SV9" gate="1" x="134.62" y="45.72" rot="R90"/>
-<instance part="N1" gate="G$1" x="27.94" y="12.7" rot="R270"/>
-<instance part="N2" gate="G$1" x="96.52" y="12.7" rot="R270"/>
-<instance part="N3" gate="G$1" x="170.18" y="12.7" rot="R270"/>
 <instance part="SV10" gate="1" x="210.82" y="45.72" rot="R90"/>
 <instance part="SV11" gate="1" x="276.86" y="45.72" rot="R90"/>
 <instance part="SV12" gate="1" x="342.9" y="45.72" rot="R90"/>
+<instance part="N1" gate="G$1" x="27.94" y="12.7" rot="R270"/>
+<instance part="N2" gate="G$1" x="96.52" y="12.7" rot="R270"/>
+<instance part="N3" gate="G$1" x="170.18" y="12.7" rot="R270"/>
 <instance part="N4" gate="G$1" x="238.76" y="12.7" rot="R270"/>
 <instance part="N5" gate="G$1" x="304.8" y="12.7" rot="R270"/>
 <instance part="N6" gate="G$1" x="378.46" y="12.7" rot="R270"/>
@@ -24899,8 +24911,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV12" gate="1" pin="12"/>
 <wire x1="375.92" y1="-15.24" x2="337.82" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="38.1" x2="337.82" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="A"/>
-<wire x1="375.92" y1="-15.24" x2="375.92" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="A(NC)"/>
+<wire x1="375.92" y1="-15.24" x2="375.92" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="2">
@@ -24908,8 +24920,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV7" gate="1" pin="12"/>
 <wire x1="-5.08" y1="38.1" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-15.24" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="-15.24" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-15.24" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="A(NC)"/>
 </segment>
 </net>
 <net name="N$19" class="2">
@@ -24917,8 +24929,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="93.98" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV8" gate="1" pin="12"/>
 <wire x1="63.5" y1="38.1" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="A"/>
-<wire x1="93.98" y1="-15.24" x2="93.98" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="A(NC)"/>
+<wire x1="93.98" y1="-15.24" x2="93.98" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="2">
@@ -24926,8 +24938,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="167.64" y1="-15.24" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV9" gate="1" pin="12"/>
 <wire x1="129.54" y1="38.1" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="A"/>
-<wire x1="167.64" y1="-15.24" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="A(NC)"/>
+<wire x1="167.64" y1="-15.24" x2="167.64" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$88" class="2">
@@ -24935,8 +24947,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="236.22" y1="-15.24" x2="205.74" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV10" gate="1" pin="12"/>
 <wire x1="205.74" y1="38.1" x2="205.74" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="A"/>
-<wire x1="236.22" y1="-15.24" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="A(NC)"/>
+<wire x1="236.22" y1="-15.24" x2="236.22" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$98" class="2">
@@ -24944,112 +24956,110 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV11" gate="1" pin="12"/>
 <wire x1="271.78" y1="38.1" x2="271.78" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-15.24" x2="271.78" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="A"/>
-<wire x1="302.26" y1="-15.24" x2="302.26" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="A(NC)"/>
+<wire x1="302.26" y1="-15.24" x2="302.26" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="SV7" gate="1" pin="9"/>
 <wire x1="-2.54" y1="53.34" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="66.04" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="1(GRID)"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="SV7" gate="1" pin="7"/>
 <wire x1="0" y1="53.34" x2="0" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="2"/>
 <wire x1="0" y1="63.5" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="63.5" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="2(C)"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="SV7" gate="1" pin="5"/>
 <wire x1="2.54" y1="53.34" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="3"/>
 <wire x1="2.54" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="60.96" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="3(DP)"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="SV7" gate="1" pin="3"/>
 <wire x1="5.08" y1="53.34" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="4"/>
 <wire x1="5.08" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="58.42" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="4(B)"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="SV7" gate="1" pin="1"/>
 <wire x1="7.62" y1="53.34" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="5"/>
 <wire x1="7.62" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="55.88" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="5(A)"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="SV8" gate="1" pin="1"/>
 <wire x1="76.2" y1="53.34" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="5"/>
 <wire x1="76.2" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="55.88" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="5(A)"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="4"/>
 <wire x1="99.06" y1="20.32" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SV8" gate="1" pin="3"/>
 <wire x1="99.06" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="4(B)"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
 <pinref part="SV8" gate="1" pin="5"/>
 <wire x1="71.12" y1="53.34" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="3"/>
 <wire x1="71.12" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="60.96" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="3(DP)"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="20.32" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SV8" gate="1" pin="7"/>
 <wire x1="104.14" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="63.5" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="2(C)"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="SV8" gate="1" pin="9"/>
 <wire x1="66.04" y1="53.34" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="66.04" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="1(GRID)"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
 <pinref part="SV9" gate="1" pin="1"/>
 <wire x1="142.24" y1="53.34" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="5"/>
 <wire x1="142.24" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="55.88" x2="170.18" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="N3" gate="G$1" pin="4"/>
 <wire x1="172.72" y1="20.32" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SV9" gate="1" pin="3"/>
 <wire x1="172.72" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
@@ -25060,14 +25070,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV9" gate="1" pin="5"/>
 <wire x1="137.16" y1="53.34" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="3"/>
 <wire x1="137.16" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="60.96" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="N3" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="20.32" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SV9" gate="1" pin="7"/>
 <wire x1="177.8" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
@@ -25078,7 +25086,6 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV9" gate="1" pin="9"/>
 <wire x1="132.08" y1="53.34" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="66.04" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -25087,14 +25094,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV10" gate="1" pin="1"/>
 <wire x1="218.44" y1="53.34" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="5"/>
 <wire x1="218.44" y1="55.88" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="55.88" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="N4" gate="G$1" pin="4"/>
 <wire x1="241.3" y1="20.32" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SV10" gate="1" pin="3"/>
 <wire x1="241.3" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
@@ -25105,14 +25110,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV10" gate="1" pin="5"/>
 <wire x1="213.36" y1="53.34" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="3"/>
 <wire x1="213.36" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="60.96" x2="243.84" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$62" class="0">
 <segment>
-<pinref part="N4" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="20.32" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SV10" gate="1" pin="7"/>
 <wire x1="246.38" y1="63.5" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
@@ -25123,7 +25126,6 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV10" gate="1" pin="9"/>
 <wire x1="208.28" y1="53.34" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="66.04" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -25132,14 +25134,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV11" gate="1" pin="1"/>
 <wire x1="284.48" y1="53.34" x2="284.48" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="5"/>
 <wire x1="284.48" y1="55.88" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="55.88" x2="304.8" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$70" class="0">
 <segment>
-<pinref part="N5" gate="G$1" pin="4"/>
 <wire x1="307.34" y1="20.32" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SV11" gate="1" pin="3"/>
 <wire x1="307.34" y1="58.42" x2="281.94" y2="58.42" width="0.1524" layer="91"/>
@@ -25150,14 +25150,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV11" gate="1" pin="5"/>
 <wire x1="279.4" y1="53.34" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="3"/>
 <wire x1="279.4" y1="60.96" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="60.96" x2="309.88" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$72" class="0">
 <segment>
-<pinref part="N5" gate="G$1" pin="2"/>
 <wire x1="312.42" y1="20.32" x2="312.42" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SV11" gate="1" pin="7"/>
 <wire x1="312.42" y1="63.5" x2="276.86" y2="63.5" width="0.1524" layer="91"/>
@@ -25168,7 +25166,6 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV11" gate="1" pin="9"/>
 <wire x1="274.32" y1="53.34" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="66.04" x2="314.96" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="66.04" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -25177,14 +25174,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV12" gate="1" pin="1"/>
 <wire x1="350.52" y1="53.34" x2="350.52" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="5"/>
 <wire x1="350.52" y1="55.88" x2="378.46" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="55.88" x2="378.46" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$81" class="0">
 <segment>
-<pinref part="N6" gate="G$1" pin="4"/>
 <wire x1="381" y1="20.32" x2="381" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SV12" gate="1" pin="3"/>
 <wire x1="381" y1="58.42" x2="347.98" y2="58.42" width="0.1524" layer="91"/>
@@ -25195,14 +25190,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV12" gate="1" pin="5"/>
 <wire x1="345.44" y1="53.34" x2="345.44" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="3"/>
 <wire x1="345.44" y1="60.96" x2="383.54" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="60.96" x2="383.54" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$83" class="0">
 <segment>
-<pinref part="N6" gate="G$1" pin="2"/>
 <wire x1="386.08" y1="20.32" x2="386.08" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SV12" gate="1" pin="7"/>
 <wire x1="386.08" y1="63.5" x2="342.9" y2="63.5" width="0.1524" layer="91"/>
@@ -25213,146 +25206,143 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV12" gate="1" pin="9"/>
 <wire x1="340.36" y1="53.34" x2="340.36" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="1"/>
 <wire x1="340.36" y1="66.04" x2="388.62" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="66.04" x2="388.62" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="RHDP"/>
-<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="0" x2="-12.7" y2="0" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="0" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SV7" gate="1" pin="11"/>
 <wire x1="-12.7" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="55.88" x2="-5.08" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="RHDP(NC)"/>
+<wire x1="-12.7" y1="-12.7" x2="15.24" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="SV7" gate="1" pin="2"/>
 <wire x1="7.62" y1="38.1" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="6"/>
 <wire x1="7.62" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="33.02" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="6(G)"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="7"/>
 <wire x1="22.86" y1="20.32" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SV7" gate="1" pin="4"/>
 <wire x1="22.86" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="30.48" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="7(F)"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="SV7" gate="1" pin="6"/>
 <wire x1="2.54" y1="38.1" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="8"/>
 <wire x1="2.54" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="27.94" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="8(E)"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="9"/>
 <wire x1="17.78" y1="20.32" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SV7" gate="1" pin="8"/>
 <wire x1="17.78" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="0" y1="25.4" x2="0" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="9(D)"/>
 </segment>
 </net>
 <net name="N$94" class="0">
 <segment>
 <pinref part="SV7" gate="1" pin="10"/>
 <wire x1="-2.54" y1="38.1" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="0"/>
 <wire x1="-2.54" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="0(CAT)"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="RHDP"/>
-<wire x1="83.82" y1="2.54" x2="83.82" y2="0" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="0" x2="55.88" y2="0" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="0" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-12.7" x2="55.88" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-12.7" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SV8" gate="1" pin="11"/>
 <wire x1="55.88" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="55.88" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="RHDP(NC)"/>
+<wire x1="83.82" y1="-12.7" x2="83.82" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="SV8" gate="1" pin="2"/>
 <wire x1="76.2" y1="38.1" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="6"/>
 <wire x1="76.2" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="33.02" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="6(G)"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="7"/>
 <wire x1="91.44" y1="20.32" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SV8" gate="1" pin="4"/>
 <wire x1="91.44" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="30.48" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="7(F)"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="SV8" gate="1" pin="6"/>
 <wire x1="71.12" y1="38.1" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="27.94" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="8(E)"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="9"/>
 <wire x1="86.36" y1="20.32" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SV8" gate="1" pin="8"/>
 <wire x1="86.36" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="25.4" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="9(D)"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="SV8" gate="1" pin="10"/>
 <wire x1="66.04" y1="38.1" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="0"/>
 <wire x1="66.04" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="22.86" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="0(CAT)"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="N3" gate="G$1" pin="RHDP"/>
-<wire x1="157.48" y1="2.54" x2="157.48" y2="0" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="0" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-12.7" x2="121.92" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-12.7" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SV9" gate="1" pin="11"/>
 <wire x1="121.92" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="55.88" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="RHDP(NC)"/>
+<wire x1="157.48" y1="-12.7" x2="157.48" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="SV9" gate="1" pin="2"/>
 <wire x1="142.24" y1="38.1" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="6"/>
 <wire x1="142.24" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="33.02" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="N3" gate="G$1" pin="7"/>
 <wire x1="165.1" y1="20.32" x2="165.1" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SV9" gate="1" pin="4"/>
 <wire x1="165.1" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
@@ -25363,14 +25353,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV9" gate="1" pin="6"/>
 <wire x1="137.16" y1="38.1" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="8"/>
 <wire x1="137.16" y1="27.94" x2="162.56" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="27.94" x2="162.56" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="N3" gate="G$1" pin="9"/>
 <wire x1="160.02" y1="20.32" x2="160.02" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SV9" gate="1" pin="8"/>
 <wire x1="160.02" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
@@ -25381,7 +25369,6 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV9" gate="1" pin="10"/>
 <wire x1="132.08" y1="38.1" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="0"/>
 <wire x1="132.08" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="22.86" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -25391,24 +25378,22 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV10" gate="1" pin="11"/>
 <wire x1="205.74" y1="53.34" x2="205.74" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="55.88" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="55.88" x2="200.66" y2="0" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="RHDP"/>
-<wire x1="200.66" y1="0" x2="226.06" y2="0" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="0" x2="226.06" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="55.88" x2="200.66" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-12.7" x2="226.06" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="RHDP(NC)"/>
+<wire x1="226.06" y1="-12.7" x2="226.06" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
 <segment>
 <pinref part="SV10" gate="1" pin="2"/>
 <wire x1="218.44" y1="38.1" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="6"/>
 <wire x1="218.44" y1="33.02" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="33.02" x2="236.22" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
-<pinref part="N4" gate="G$1" pin="7"/>
 <wire x1="233.68" y1="20.32" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SV10" gate="1" pin="4"/>
 <wire x1="233.68" y1="30.48" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
@@ -25419,14 +25404,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV10" gate="1" pin="6"/>
 <wire x1="213.36" y1="38.1" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="8"/>
 <wire x1="213.36" y1="27.94" x2="231.14" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="27.94" x2="231.14" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="N4" gate="G$1" pin="9"/>
 <wire x1="228.6" y1="20.32" x2="228.6" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SV10" gate="1" pin="8"/>
 <wire x1="228.6" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
@@ -25437,34 +25420,31 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV10" gate="1" pin="10"/>
 <wire x1="208.28" y1="38.1" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="0"/>
 <wire x1="208.28" y1="22.86" x2="226.06" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="22.86" x2="226.06" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$58" class="0">
 <segment>
-<pinref part="N5" gate="G$1" pin="RHDP"/>
-<wire x1="292.1" y1="2.54" x2="292.1" y2="0" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="0" x2="264.16" y2="0" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="0" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="-12.7" x2="264.16" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="-12.7" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SV11" gate="1" pin="11"/>
 <wire x1="264.16" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="55.88" x2="271.78" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="RHDP(NC)"/>
+<wire x1="292.1" y1="-12.7" x2="292.1" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
 <pinref part="SV11" gate="1" pin="2"/>
 <wire x1="284.48" y1="38.1" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="6"/>
 <wire x1="284.48" y1="33.02" x2="302.26" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="33.02" x2="302.26" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$65" class="0">
 <segment>
-<pinref part="N5" gate="G$1" pin="7"/>
 <wire x1="299.72" y1="20.32" x2="299.72" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SV11" gate="1" pin="4"/>
 <wire x1="299.72" y1="30.48" x2="281.94" y2="30.48" width="0.1524" layer="91"/>
@@ -25475,14 +25455,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV11" gate="1" pin="6"/>
 <wire x1="279.4" y1="38.1" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="8"/>
 <wire x1="279.4" y1="27.94" x2="297.18" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="27.94" x2="297.18" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="N5" gate="G$1" pin="9"/>
 <wire x1="294.64" y1="20.32" x2="294.64" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SV11" gate="1" pin="8"/>
 <wire x1="294.64" y1="25.4" x2="276.86" y2="25.4" width="0.1524" layer="91"/>
@@ -25493,34 +25471,31 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV11" gate="1" pin="10"/>
 <wire x1="274.32" y1="38.1" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="0"/>
 <wire x1="274.32" y1="22.86" x2="292.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="22.86" x2="292.1" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="N6" gate="G$1" pin="RHDP"/>
-<wire x1="365.76" y1="2.54" x2="365.76" y2="0" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="0" x2="330.2" y2="0" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="0" x2="330.2" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-12.7" x2="330.2" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="-12.7" x2="330.2" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SV12" gate="1" pin="11"/>
 <wire x1="330.2" y1="55.88" x2="337.82" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="55.88" x2="337.82" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="RHDP(NC)"/>
+<wire x1="365.76" y1="-12.7" x2="365.76" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$76" class="0">
 <segment>
 <pinref part="SV12" gate="1" pin="2"/>
 <wire x1="350.52" y1="38.1" x2="350.52" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="6"/>
 <wire x1="350.52" y1="33.02" x2="375.92" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="33.02" x2="375.92" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$77" class="0">
 <segment>
-<pinref part="N6" gate="G$1" pin="7"/>
 <wire x1="373.38" y1="20.32" x2="373.38" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SV12" gate="1" pin="4"/>
 <wire x1="373.38" y1="30.48" x2="347.98" y2="30.48" width="0.1524" layer="91"/>
@@ -25531,14 +25506,12 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV12" gate="1" pin="6"/>
 <wire x1="345.44" y1="38.1" x2="345.44" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="8"/>
 <wire x1="345.44" y1="27.94" x2="370.84" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="27.94" x2="370.84" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$79" class="0">
 <segment>
-<pinref part="N6" gate="G$1" pin="9"/>
 <wire x1="368.3" y1="20.32" x2="368.3" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SV12" gate="1" pin="8"/>
 <wire x1="368.3" y1="25.4" x2="342.9" y2="25.4" width="0.1524" layer="91"/>
@@ -25549,7 +25522,6 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <segment>
 <pinref part="SV12" gate="1" pin="10"/>
 <wire x1="340.36" y1="38.1" x2="340.36" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="0"/>
 <wire x1="340.36" y1="22.86" x2="365.76" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="22.86" x2="365.76" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -25576,7 +25548,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <approved hash="113,5,342.705,45.72,SV12,,,,,"/>
 <approved hash="113,4,52.518,51.0963,U1,,,,,"/>
 <approved hash="113,4,165.032,-13.3773,J3,,,,,"/>
-<approved hash="113,2,-45.1273,82.7955,J5,,,,,"/>
+<approved hash="113,2,-67.9873,82.7955,J5,,,,,"/>
 <approved hash="113,4,65.1595,17.78,S2,,,,,"/>
 <approved hash="113,4,142.24,99.9405,S3,,,,,"/>
 <approved hash="113,4,142.24,82.1605,S4,,,,,"/>

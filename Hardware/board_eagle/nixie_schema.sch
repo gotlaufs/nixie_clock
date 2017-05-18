@@ -21585,40 +21585,40 @@ Metric Code Size 2012</description>
 <rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
 <package name="IN-14_IV-11">
-<wire x1="-7.62" y1="-0.1588" x2="7.6201" y2="0" width="0.254" layer="21" curve="-180"/>
+<wire x1="7.62" y1="0.1588" x2="-7.6201" y2="0" width="0.254" layer="21" curve="-180"/>
 <circle x="0" y="0" radius="8.8744" width="0.254" layer="21"/>
-<pad name="A(NC)" x="0" y="-6.1899" drill="0.84"/>
-<pad name="LHDP(CAT)" x="2.8766" y="-5.4809" drill="0.84"/>
-<pad name="1(GRID)" x="5.0942" y="-3.5163" drill="0.84"/>
-<pad name="2(C)" x="6.1448" y="-0.7461" drill="0.84"/>
-<pad name="3(DP)" x="5.7877" y="2.195" drill="0.84"/>
-<pad name="4(B)" x="4.1047" y="4.6332" drill="0.84"/>
-<pad name="5(A)" x="1.4813" y="6.0101" drill="0.84"/>
-<pad name="6(G)" x="-1.4813" y="6.0101" drill="0.84"/>
-<pad name="7(F)" x="-4.1047" y="4.6332" drill="0.84"/>
-<pad name="8(E)" x="-5.7877" y="2.195" drill="0.84"/>
-<pad name="9(D)" x="-6.1448" y="-0.7461" drill="0.84"/>
-<pad name="0(CAT)" x="-5.0942" y="-3.5163" drill="0.84"/>
-<pad name="RHDP(NC)" x="-2.8766" y="-5.4809" drill="0.84"/>
-<text x="11.2713" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-2.5" y="9.5" size="1.27" layer="51">FRONT</text>
-<wire x1="0" y1="-3" x2="0" y2="2.5" width="0.127" layer="21"/>
-<wire x1="0" y1="-3" x2="0.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="0.5" y1="-1.5" x2="-0.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-1.5" x2="0" y2="-3" width="0.127" layer="21"/>
-<text x="-0.254" y="-5.334" size="0.8128" layer="51">1</text>
-<text x="2.286" y="-4.572" size="0.8128" layer="51">2</text>
-<text x="4.064" y="-2.794" size="0.8128" layer="51">3</text>
-<text x="4.826" y="-1.016" size="0.8128" layer="51">4</text>
-<text x="4.572" y="1.524" size="0.8128" layer="51">5</text>
-<text x="2.794" y="3.556" size="0.8128" layer="51">6</text>
-<text x="0.762" y="4.572" size="0.8128" layer="51">7</text>
-<text x="-1.27" y="4.572" size="0.8128" layer="51">8</text>
-<text x="-3.302" y="3.81" size="0.8128" layer="51">9</text>
-<text x="-5.08" y="1.524" size="0.8128" layer="51">10</text>
-<text x="-5.334" y="-1.016" size="0.8128" layer="51">11</text>
-<text x="-4.572" y="-2.794" size="0.8128" layer="51">12</text>
-<text x="-3.81" y="-4.572" size="0.8128" layer="51">13</text>
+<pad name="A(A)" x="0" y="6.1899" drill="0.84" rot="R180"/>
+<pad name="LHDP(G)" x="-2.8766" y="5.4809" drill="0.84" rot="R180"/>
+<pad name="1(F)" x="-5.0942" y="3.5163" drill="0.84" rot="R180"/>
+<pad name="2(E)" x="-6.1448" y="0.7461" drill="0.84" rot="R180"/>
+<pad name="3(D)" x="-5.7877" y="-2.195" drill="0.84" rot="R180"/>
+<pad name="4(CAT)" x="-4.1047" y="-4.6332" drill="0.84" rot="R180"/>
+<pad name="5(NC)" x="-1.4813" y="-6.0101" drill="0.84" rot="R180"/>
+<pad name="6(CAT)" x="1.4813" y="-6.0101" drill="0.84" rot="R180"/>
+<pad name="7(GRID)" x="4.1047" y="-4.6332" drill="0.84" rot="R180"/>
+<pad name="8(C)" x="5.7877" y="-2.195" drill="0.84" rot="R180"/>
+<pad name="9(DP)" x="6.1448" y="0.7461" drill="0.84" rot="R180"/>
+<pad name="0(B)" x="5.0942" y="3.5163" drill="0.84" rot="R180"/>
+<pad name="RHDP(NC)" x="2.8766" y="5.4809" drill="0.84" rot="R180"/>
+<text x="-11.2713" y="2.54" size="1.27" layer="25" rot="R270">&gt;NAME</text>
+<text x="2.5" y="-9.5" size="1.27" layer="51" rot="R180">FRONT</text>
+<wire x1="0" y1="3" x2="0" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="0" y1="3" x2="-0.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1.5" x2="0.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.5" y1="1.5" x2="0" y2="3" width="0.127" layer="21"/>
+<text x="0.254" y="5.334" size="0.8128" layer="51" rot="R180">1</text>
+<text x="-2.286" y="4.572" size="0.8128" layer="51" rot="R180">2</text>
+<text x="-4.064" y="2.794" size="0.8128" layer="51" rot="R180">3</text>
+<text x="-4.826" y="1.016" size="0.8128" layer="51" rot="R180">4</text>
+<text x="-4.572" y="-1.524" size="0.8128" layer="51" rot="R180">5</text>
+<text x="-2.794" y="-3.556" size="0.8128" layer="51" rot="R180">6</text>
+<text x="-0.762" y="-4.572" size="0.8128" layer="51" rot="R180">7</text>
+<text x="1.27" y="-4.572" size="0.8128" layer="51" rot="R180">8</text>
+<text x="3.302" y="-3.81" size="0.8128" layer="51" rot="R180">9</text>
+<text x="5.08" y="-1.524" size="0.8128" layer="51" rot="R180">10</text>
+<text x="5.334" y="1.016" size="0.8128" layer="51" rot="R180">11</text>
+<text x="4.572" y="2.794" size="0.8128" layer="51" rot="R180">12</text>
+<text x="3.81" y="4.572" size="0.8128" layer="51" rot="R180">13</text>
 </package>
 </packages>
 <symbols>
@@ -21851,32 +21851,32 @@ Metric Code Size 2012</description>
 <wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="IN-14_IV-11">
-<wire x1="-5.08" y1="-13.335" x2="-5.08" y2="-12.7" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="10.795" width="0.4064" layer="94"/>
-<wire x1="20.32" y1="-13.335" x2="20.32" y2="-12.7" width="0.4064" layer="94"/>
-<text x="2.54" y="15.875" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1(GRID)" x="-7.62" y="10.16" visible="pin" length="short"/>
-<pin name="2(C)" x="-7.62" y="7.62" visible="pin" length="short"/>
-<pin name="3(DP)" x="-7.62" y="5.08" visible="pin" length="short"/>
-<pin name="4(B)" x="-7.62" y="2.54" visible="pin" length="short"/>
-<pin name="5(A)" x="-7.62" y="0" visible="pin" length="short"/>
-<pin name="6(G)" x="-7.62" y="-2.54" visible="pin" length="short"/>
-<pin name="7(F)" x="-7.62" y="-5.08" visible="pin" length="short"/>
-<pin name="8(E)" x="-7.62" y="-7.62" visible="pin" length="short"/>
-<pin name="9(D)" x="-7.62" y="-10.16" visible="pin" length="short"/>
-<pin name="0(CAT)" x="-7.62" y="-12.7" visible="pin" length="short"/>
-<pin name="RHDP(NC)" x="22.86" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="A(NC)" x="22.86" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="LHDP(CAT)" x="22.86" y="10.16" visible="pin" length="short" rot="R180"/>
-<wire x1="20.32" y1="-12.7" x2="20.32" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="20.32" y1="10.16" x2="20.32" y2="10.795" width="0.4064" layer="94"/>
-<wire x1="0" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="15.24" y1="15.24" x2="20.32" y2="10.16" width="0.254" layer="94" curve="-90"/>
-<wire x1="20.32" y1="-12.7" x2="15.24" y2="-17.78" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="-17.78" x2="-5.08" y2="-12.7" width="0.254" layer="94" curve="-90"/>
-<wire x1="-5.08" y1="10.16" x2="0" y2="15.24" width="0.254" layer="94" curve="-90"/>
+<wire x1="-12.7" y1="-13.335" x2="-12.7" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="10.795" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-13.335" x2="12.7" y2="-12.7" width="0.4064" layer="94"/>
+<text x="-5.08" y="15.875" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1(F)" x="-15.24" y="10.16" visible="pin" length="short"/>
+<pin name="2(E)" x="-15.24" y="7.62" visible="pin" length="short"/>
+<pin name="3(D)" x="-15.24" y="5.08" visible="pin" length="short"/>
+<pin name="4(CAT)" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="5(NC)" x="-15.24" y="0" visible="pin" length="short"/>
+<pin name="6(CAT)" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="7(GRID)" x="-15.24" y="-5.08" visible="pin" length="short"/>
+<pin name="8(C)" x="-15.24" y="-7.62" visible="pin" length="short"/>
+<pin name="9(DP)" x="-15.24" y="-10.16" visible="pin" length="short"/>
+<pin name="0(B)" x="-15.24" y="-12.7" visible="pin" length="short"/>
+<pin name="RHDP(NC)" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="A(A)" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="LHDP(G)" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="10.795" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="12.7" y2="10.16" width="0.254" layer="94" curve="-90"/>
+<wire x1="12.7" y1="-12.7" x2="7.62" y2="-17.78" width="0.254" layer="94" curve="-90"/>
+<wire x1="-7.62" y1="-17.78" x2="-12.7" y2="-12.7" width="0.254" layer="94" curve="-90"/>
+<wire x1="-12.7" y1="10.16" x2="-7.62" y2="15.24" width="0.254" layer="94" curve="-90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -22202,18 +22202,18 @@ IV-11: Medium 7-segment &lt;b&gt;frontview&lt;/b&gt; VFD tube
 <devices>
 <device name="" package="IN-14_IV-11">
 <connects>
-<connect gate="G$1" pin="0(CAT)" pad="0(CAT)"/>
-<connect gate="G$1" pin="1(GRID)" pad="1(GRID)"/>
-<connect gate="G$1" pin="2(C)" pad="2(C)"/>
-<connect gate="G$1" pin="3(DP)" pad="3(DP)"/>
-<connect gate="G$1" pin="4(B)" pad="4(B)"/>
-<connect gate="G$1" pin="5(A)" pad="5(A)"/>
-<connect gate="G$1" pin="6(G)" pad="6(G)"/>
-<connect gate="G$1" pin="7(F)" pad="7(F)"/>
-<connect gate="G$1" pin="8(E)" pad="8(E)"/>
-<connect gate="G$1" pin="9(D)" pad="9(D)"/>
-<connect gate="G$1" pin="A(NC)" pad="A(NC)"/>
-<connect gate="G$1" pin="LHDP(CAT)" pad="LHDP(CAT)"/>
+<connect gate="G$1" pin="0(B)" pad="0(B)"/>
+<connect gate="G$1" pin="1(F)" pad="1(F)"/>
+<connect gate="G$1" pin="2(E)" pad="2(E)"/>
+<connect gate="G$1" pin="3(D)" pad="3(D)"/>
+<connect gate="G$1" pin="4(CAT)" pad="4(CAT)"/>
+<connect gate="G$1" pin="5(NC)" pad="5(NC)"/>
+<connect gate="G$1" pin="6(CAT)" pad="6(CAT)"/>
+<connect gate="G$1" pin="7(GRID)" pad="7(GRID)"/>
+<connect gate="G$1" pin="8(C)" pad="8(C)"/>
+<connect gate="G$1" pin="9(DP)" pad="9(DP)"/>
+<connect gate="G$1" pin="A(A)" pad="A(A)"/>
+<connect gate="G$1" pin="LHDP(G)" pad="LHDP(G)"/>
 <connect gate="G$1" pin="RHDP(NC)" pad="RHDP(NC)"/>
 </connects>
 <technologies>
@@ -22710,18 +22710,18 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="Q5" library="nixe_cmp" deviceset="NTF5P03" device=""/>
 <part name="U$35" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="U$36" library="nixe_cmp" deviceset="IPN60R3K4CE_NMOS" device=""/>
-<part name="N1" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
-<part name="N2" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
-<part name="N3" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
-<part name="N4" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
-<part name="N5" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
-<part name="N6" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="U$37" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="U$38" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="N1" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N2" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N3" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N4" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N5" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
+<part name="N6" library="nixe_cmp" deviceset="IN-14_IV-11_COMBI" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24926,15 +24926,15 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <instance part="SV10" gate="1" x="210.82" y="45.72" rot="R90"/>
 <instance part="SV11" gate="1" x="276.86" y="45.72" rot="R90"/>
 <instance part="SV12" gate="1" x="342.9" y="45.72" rot="R90"/>
-<instance part="N1" gate="G$1" x="27.94" y="12.7" rot="R270"/>
-<instance part="N2" gate="G$1" x="96.52" y="12.7" rot="R270"/>
-<instance part="N3" gate="G$1" x="170.18" y="12.7" rot="R270"/>
-<instance part="N4" gate="G$1" x="238.76" y="12.7" rot="R270"/>
-<instance part="N5" gate="G$1" x="304.8" y="12.7" rot="R270"/>
-<instance part="N6" gate="G$1" x="378.46" y="12.7" rot="R270"/>
 <instance part="J7" gate="J$1" x="-48.26" y="30.48" rot="R180"/>
 <instance part="U$38" gate="G$1" x="-58.42" y="-12.7"/>
 <instance part="SUPPLY11" gate="G$1" x="-58.42" y="66.04"/>
+<instance part="N1" gate="G$1" x="27.94" y="5.08" rot="R270"/>
+<instance part="N2" gate="G$1" x="96.52" y="5.08" rot="R270"/>
+<instance part="N3" gate="G$1" x="170.18" y="5.08" rot="R270"/>
+<instance part="N4" gate="G$1" x="238.76" y="5.08" rot="R270"/>
+<instance part="N5" gate="G$1" x="304.8" y="5.08" rot="R270"/>
+<instance part="N6" gate="G$1" x="378.46" y="5.08" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -24944,8 +24944,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV12" gate="1" pin="12"/>
 <wire x1="375.92" y1="-15.24" x2="337.82" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="38.1" x2="337.82" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="A(NC)"/>
 <wire x1="375.92" y1="-15.24" x2="375.92" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="A(A)"/>
 </segment>
 </net>
 <net name="N$10" class="2">
@@ -24954,7 +24954,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="-5.08" y1="38.1" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-15.24" x2="-5.08" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-15.24" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="A(NC)"/>
+<pinref part="N1" gate="G$1" pin="A(A)"/>
 </segment>
 </net>
 <net name="N$19" class="2">
@@ -24962,8 +24962,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="93.98" y1="-15.24" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV8" gate="1" pin="12"/>
 <wire x1="63.5" y1="38.1" x2="63.5" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="A(NC)"/>
 <wire x1="93.98" y1="-15.24" x2="93.98" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="A(A)"/>
 </segment>
 </net>
 <net name="N$21" class="2">
@@ -24971,8 +24971,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="167.64" y1="-15.24" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV9" gate="1" pin="12"/>
 <wire x1="129.54" y1="38.1" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="A(NC)"/>
 <wire x1="167.64" y1="-15.24" x2="167.64" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="A(A)"/>
 </segment>
 </net>
 <net name="N$88" class="2">
@@ -24980,8 +24980,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="236.22" y1="-15.24" x2="205.74" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SV10" gate="1" pin="12"/>
 <wire x1="205.74" y1="38.1" x2="205.74" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="A(NC)"/>
 <wire x1="236.22" y1="-15.24" x2="236.22" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="A(A)"/>
 </segment>
 </net>
 <net name="N$98" class="2">
@@ -24989,8 +24989,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV11" gate="1" pin="12"/>
 <wire x1="271.78" y1="38.1" x2="271.78" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="-15.24" x2="271.78" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="A(NC)"/>
 <wire x1="302.26" y1="-15.24" x2="302.26" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="A(A)"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -24999,7 +24999,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="-2.54" y1="53.34" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="66.04" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="1(GRID)"/>
+<pinref part="N1" gate="G$1" pin="1(F)"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -25008,7 +25008,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="0" y1="53.34" x2="0" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="0" y1="63.5" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="63.5" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="2(C)"/>
+<pinref part="N1" gate="G$1" pin="2(E)"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -25017,7 +25017,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="2.54" y1="53.34" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="60.96" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="3(DP)"/>
+<pinref part="N1" gate="G$1" pin="3(D)"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -25026,7 +25026,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="5.08" y1="53.34" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="58.42" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="4(B)"/>
+<pinref part="N1" gate="G$1" pin="4(CAT)"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -25035,7 +25035,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="7.62" y1="53.34" x2="7.62" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="55.88" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="5(A)"/>
+<pinref part="N1" gate="G$1" pin="5(NC)"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -25044,7 +25044,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="76.2" y1="53.34" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="55.88" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="5(A)"/>
+<pinref part="N2" gate="G$1" pin="5(NC)"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -25053,7 +25053,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV8" gate="1" pin="3"/>
 <wire x1="99.06" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="4(B)"/>
+<pinref part="N2" gate="G$1" pin="4(CAT)"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -25062,7 +25062,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="71.12" y1="53.34" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="60.96" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="3(DP)"/>
+<pinref part="N2" gate="G$1" pin="3(D)"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -25071,7 +25071,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV8" gate="1" pin="7"/>
 <wire x1="104.14" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="63.5" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="2(C)"/>
+<pinref part="N2" gate="G$1" pin="2(E)"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -25080,7 +25080,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="66.04" y1="53.34" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="66.04" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="1(GRID)"/>
+<pinref part="N2" gate="G$1" pin="1(F)"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -25089,6 +25089,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="142.24" y1="53.34" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="55.88" x2="170.18" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="5(NC)"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -25097,6 +25098,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV9" gate="1" pin="3"/>
 <wire x1="172.72" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="58.42" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="4(CAT)"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -25105,6 +25107,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="137.16" y1="53.34" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="60.96" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="3(D)"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -25113,6 +25116,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV9" gate="1" pin="7"/>
 <wire x1="177.8" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="63.5" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="2(E)"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -25121,6 +25125,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="132.08" y1="53.34" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="66.04" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="1(F)"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -25129,6 +25134,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="218.44" y1="53.34" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="55.88" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="55.88" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="5(NC)"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -25137,6 +25143,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV10" gate="1" pin="3"/>
 <wire x1="241.3" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="58.42" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="4(CAT)"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -25145,6 +25152,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="213.36" y1="53.34" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="60.96" x2="243.84" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="3(D)"/>
 </segment>
 </net>
 <net name="N$62" class="0">
@@ -25153,6 +25161,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV10" gate="1" pin="7"/>
 <wire x1="246.38" y1="63.5" x2="210.82" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="63.5" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="2(E)"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -25161,6 +25170,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="208.28" y1="53.34" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="66.04" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="1(F)"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -25169,6 +25179,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="284.48" y1="53.34" x2="284.48" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="55.88" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="55.88" x2="304.8" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="5(NC)"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -25177,6 +25188,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV11" gate="1" pin="3"/>
 <wire x1="307.34" y1="58.42" x2="281.94" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="58.42" x2="281.94" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="4(CAT)"/>
 </segment>
 </net>
 <net name="N$71" class="0">
@@ -25185,6 +25197,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="279.4" y1="53.34" x2="279.4" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="60.96" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="60.96" x2="309.88" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="3(D)"/>
 </segment>
 </net>
 <net name="N$72" class="0">
@@ -25193,6 +25206,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV11" gate="1" pin="7"/>
 <wire x1="312.42" y1="63.5" x2="276.86" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="63.5" x2="276.86" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="2(E)"/>
 </segment>
 </net>
 <net name="N$73" class="0">
@@ -25201,6 +25215,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="274.32" y1="53.34" x2="274.32" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="66.04" x2="314.96" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="66.04" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="1(F)"/>
 </segment>
 </net>
 <net name="N$80" class="0">
@@ -25209,6 +25224,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="350.52" y1="53.34" x2="350.52" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="55.88" x2="378.46" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="55.88" x2="378.46" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="5(NC)"/>
 </segment>
 </net>
 <net name="N$81" class="0">
@@ -25217,6 +25233,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV12" gate="1" pin="3"/>
 <wire x1="381" y1="58.42" x2="347.98" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="58.42" x2="347.98" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="4(CAT)"/>
 </segment>
 </net>
 <net name="N$82" class="0">
@@ -25225,6 +25242,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="345.44" y1="53.34" x2="345.44" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="60.96" x2="383.54" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="60.96" x2="383.54" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="3(D)"/>
 </segment>
 </net>
 <net name="N$83" class="0">
@@ -25233,6 +25251,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV12" gate="1" pin="7"/>
 <wire x1="386.08" y1="63.5" x2="342.9" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="63.5" x2="342.9" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="2(E)"/>
 </segment>
 </net>
 <net name="N$84" class="0">
@@ -25241,6 +25260,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="340.36" y1="53.34" x2="340.36" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="66.04" x2="388.62" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="388.62" y1="66.04" x2="388.62" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="1(F)"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -25249,9 +25269,9 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV7" gate="1" pin="11"/>
 <wire x1="-12.7" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="55.88" x2="-5.08" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="RHDP(NC)"/>
 <wire x1="-12.7" y1="-12.7" x2="15.24" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-12.7" x2="15.24" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N1" gate="G$1" pin="RHDP(NC)"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -25260,7 +25280,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="7.62" y1="38.1" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="33.02" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="6(G)"/>
+<pinref part="N1" gate="G$1" pin="6(CAT)"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -25269,7 +25289,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV7" gate="1" pin="4"/>
 <wire x1="22.86" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="30.48" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="7(F)"/>
+<pinref part="N1" gate="G$1" pin="7(GRID)"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -25278,7 +25298,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="2.54" y1="38.1" x2="2.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="27.94" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="8(E)"/>
+<pinref part="N1" gate="G$1" pin="8(C)"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -25287,7 +25307,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV7" gate="1" pin="8"/>
 <wire x1="17.78" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="0" y1="25.4" x2="0" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="9(D)"/>
+<pinref part="N1" gate="G$1" pin="9(DP)"/>
 </segment>
 </net>
 <net name="N$94" class="0">
@@ -25296,7 +25316,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="-2.54" y1="38.1" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N1" gate="G$1" pin="0(CAT)"/>
+<pinref part="N1" gate="G$1" pin="0(B)"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -25306,8 +25326,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV8" gate="1" pin="11"/>
 <wire x1="55.88" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="55.88" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="RHDP(NC)"/>
 <wire x1="83.82" y1="-12.7" x2="83.82" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N2" gate="G$1" pin="RHDP(NC)"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -25316,7 +25336,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="76.2" y1="38.1" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="33.02" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="6(G)"/>
+<pinref part="N2" gate="G$1" pin="6(CAT)"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -25325,7 +25345,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV8" gate="1" pin="4"/>
 <wire x1="91.44" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="30.48" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="7(F)"/>
+<pinref part="N2" gate="G$1" pin="7(GRID)"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -25334,7 +25354,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="71.12" y1="38.1" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="27.94" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="27.94" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="8(E)"/>
+<pinref part="N2" gate="G$1" pin="8(C)"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -25343,7 +25363,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV8" gate="1" pin="8"/>
 <wire x1="86.36" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="25.4" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="9(D)"/>
+<pinref part="N2" gate="G$1" pin="9(DP)"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -25352,7 +25372,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="66.04" y1="38.1" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="22.86" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="N2" gate="G$1" pin="0(CAT)"/>
+<pinref part="N2" gate="G$1" pin="0(B)"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -25362,8 +25382,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV9" gate="1" pin="11"/>
 <wire x1="121.92" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="55.88" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="N3" gate="G$1" pin="RHDP(NC)"/>
 <wire x1="157.48" y1="-12.7" x2="157.48" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="RHDP(NC)"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -25372,6 +25392,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="142.24" y1="38.1" x2="142.24" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="33.02" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="6(CAT)"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -25380,6 +25401,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV9" gate="1" pin="4"/>
 <wire x1="165.1" y1="30.48" x2="139.7" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="30.48" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="7(GRID)"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -25388,6 +25410,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="137.16" y1="38.1" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="27.94" x2="162.56" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="27.94" x2="162.56" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="8(C)"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -25396,6 +25419,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV9" gate="1" pin="8"/>
 <wire x1="160.02" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="25.4" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="9(DP)"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -25404,6 +25428,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="132.08" y1="38.1" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="22.86" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N3" gate="G$1" pin="0(B)"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -25413,8 +25438,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="205.74" y1="55.88" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="55.88" x2="200.66" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-12.7" x2="226.06" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="N4" gate="G$1" pin="RHDP(NC)"/>
 <wire x1="226.06" y1="-12.7" x2="226.06" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="RHDP(NC)"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -25423,6 +25448,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="218.44" y1="38.1" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="33.02" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="33.02" x2="236.22" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="6(CAT)"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -25431,6 +25457,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV10" gate="1" pin="4"/>
 <wire x1="233.68" y1="30.48" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="30.48" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="7(GRID)"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -25439,6 +25466,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="213.36" y1="38.1" x2="213.36" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="27.94" x2="231.14" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="27.94" x2="231.14" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="8(C)"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -25447,6 +25475,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV10" gate="1" pin="8"/>
 <wire x1="228.6" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="25.4" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="9(DP)"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -25455,6 +25484,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="208.28" y1="38.1" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="22.86" x2="226.06" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="22.86" x2="226.06" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N4" gate="G$1" pin="0(B)"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -25464,8 +25494,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV11" gate="1" pin="11"/>
 <wire x1="264.16" y1="55.88" x2="271.78" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="55.88" x2="271.78" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="N5" gate="G$1" pin="RHDP(NC)"/>
 <wire x1="292.1" y1="-12.7" x2="292.1" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="RHDP(NC)"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -25474,6 +25504,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="284.48" y1="38.1" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="33.02" x2="302.26" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="33.02" x2="302.26" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="6(CAT)"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -25482,6 +25513,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV11" gate="1" pin="4"/>
 <wire x1="299.72" y1="30.48" x2="281.94" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="30.48" x2="281.94" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="7(GRID)"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -25490,6 +25522,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="279.4" y1="38.1" x2="279.4" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="27.94" x2="297.18" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="27.94" x2="297.18" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="8(C)"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -25498,6 +25531,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV11" gate="1" pin="8"/>
 <wire x1="294.64" y1="25.4" x2="276.86" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="25.4" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="9(DP)"/>
 </segment>
 </net>
 <net name="N$68" class="0">
@@ -25506,6 +25540,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="274.32" y1="38.1" x2="274.32" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="22.86" x2="292.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="22.86" x2="292.1" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N5" gate="G$1" pin="0(B)"/>
 </segment>
 </net>
 <net name="N$75" class="0">
@@ -25515,8 +25550,8 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV12" gate="1" pin="11"/>
 <wire x1="330.2" y1="55.88" x2="337.82" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="55.88" x2="337.82" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="N6" gate="G$1" pin="RHDP(NC)"/>
 <wire x1="365.76" y1="-12.7" x2="365.76" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="RHDP(NC)"/>
 </segment>
 </net>
 <net name="N$76" class="0">
@@ -25525,6 +25560,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="350.52" y1="38.1" x2="350.52" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="33.02" x2="375.92" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="33.02" x2="375.92" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="6(CAT)"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -25533,6 +25569,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV12" gate="1" pin="4"/>
 <wire x1="373.38" y1="30.48" x2="347.98" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="30.48" x2="347.98" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="7(GRID)"/>
 </segment>
 </net>
 <net name="N$78" class="0">
@@ -25541,6 +25578,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="345.44" y1="38.1" x2="345.44" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="27.94" x2="370.84" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="27.94" x2="370.84" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="8(C)"/>
 </segment>
 </net>
 <net name="N$79" class="0">
@@ -25549,6 +25587,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <pinref part="SV12" gate="1" pin="8"/>
 <wire x1="368.3" y1="25.4" x2="342.9" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="25.4" x2="342.9" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="9(DP)"/>
 </segment>
 </net>
 <net name="N$86" class="0">
@@ -25557,6 +25596,7 @@ https://blog.adafruit.com/2012/01/24/choosing-the-right-crystal-and-caps-for-you
 <wire x1="340.36" y1="38.1" x2="340.36" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="22.86" x2="365.76" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="22.86" x2="365.76" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="N6" gate="G$1" pin="0(B)"/>
 </segment>
 </net>
 <net name="+3V3" class="3">

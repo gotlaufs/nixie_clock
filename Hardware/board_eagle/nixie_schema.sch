@@ -21620,10 +21620,10 @@ Metric Code Size 2012</description>
 <text x="4.572" y="2.794" size="0.8128" layer="51" rot="R180">12</text>
 <text x="3.81" y="4.572" size="0.8128" layer="51" rot="R180">13</text>
 </package>
-<package name="CUT_TRACE">
-<smd name="P$1" x="0" y="0.762" dx="0.635" dy="0.635" layer="1" stop="no" cream="no"/>
-<smd name="P$2" x="0" y="-0.762" dx="0.635" dy="0.635" layer="1" stop="no" cream="no"/>
-<text x="0.889" y="-0.254" size="0.889" layer="25">&gt;NAME</text>
+<package name="CUT_TRACE_2">
+<smd name="P$1" x="0" y="1.016" dx="0.635" dy="0.635" layer="1" stop="no" cream="no"/>
+<smd name="P$2" x="0" y="-1.016" dx="0.635" dy="0.635" layer="1" stop="no" cream="no"/>
+<text x="0.889" y="-0.254" size="0.762" layer="25">&gt;NAME</text>
 <polygon width="0.127" layer="29">
 <vertex x="-0.635" y="0.889" curve="-90"/>
 <vertex x="0" y="1.524" curve="-90"/>
@@ -21632,7 +21632,7 @@ Metric Code Size 2012</description>
 <vertex x="0" y="-1.524" curve="-90"/>
 <vertex x="-0.635" y="-0.889"/>
 </polygon>
-<wire x1="0" y1="0.762" x2="0" y2="-0.762" width="0.2032" layer="1"/>
+<wire x1="0" y1="0.381" x2="0" y2="-0.381" width="0.2032" layer="1"/>
 <circle x="0" y="0.889" radius="0.635" width="0" layer="1"/>
 <circle x="0" y="-0.889" radius="0.635" width="0" layer="1"/>
 </package>
@@ -22330,7 +22330,7 @@ IV-11: Medium 7-segment &lt;b&gt;frontview&lt;/b&gt; VFD tube
 <gate name="G$1" symbol="CUT_TRACE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CUT_TRACE">
+<device name="" package="CUT_TRACE_2">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -26014,7 +26014,7 @@ line in IV-11 (VFD) mode</text>
 <label x="-147.32" y="86.36" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="2_A_A" class="0">
+<net name="2_A_A" class="2">
 <segment>
 <wire x1="-154.94" y1="-53.34" x2="-157.48" y2="-53.34" width="0.1524" layer="91"/>
 <label x="-165.1" y="-53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -26214,7 +26214,7 @@ line in IV-11 (VFD) mode</text>
 <pinref part="SV8" gate="1" pin="2"/>
 </segment>
 </net>
-<net name="N$7" class="2">
+<net name="N$7" class="0">
 <segment>
 <pinref part="CUT3" gate="G$1" pin="2"/>
 <wire x1="-134.62" y1="38.1" x2="-134.62" y2="45.72" width="0.1524" layer="91"/>

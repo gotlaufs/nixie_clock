@@ -2,6 +2,7 @@
 # Backup files
 *.s#*
 *.b#*
+*.b$*
 *.l#*
 
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/

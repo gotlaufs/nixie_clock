@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -22684,8 +22684,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <class number="3" name="medium power" width="0.508" drill="0.5">
 <clearance class="3" value="0.2032"/>
 </class>
-<class number="4" name="GND pour" width="0.3048" drill="0.5">
-<clearance class="4" value="0.3048"/>
+<class number="4" name="smallish power" width="0.3048" drill="0.5">
+<clearance class="4" value="0.2032"/>
 </class>
 </classes>
 <parts>

@@ -1,6 +1,7 @@
 # For EAGLE CAD
 # Backup files
 *.s#*
+*.s$*
 *.b#*
 *.b$*
 *.l#*

@@ -21658,6 +21658,7 @@ Metric Code Size 2012</description>
 <vertex x="0" y="-1.524" curve="-90"/>
 <vertex x="-1.016" y="-0.508"/>
 </polygon>
+<rectangle x1="-1.016" y1="-0.508" x2="1.016" y2="0.508" layer="41"/>
 </package>
 </packages>
 <symbols>

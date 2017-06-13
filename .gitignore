@@ -5,6 +5,8 @@
 *.b#*
 *.b$*
 *.l#*
+*.l$*
+
 
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 

@@ -21475,7 +21475,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <text x="-3.4" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="CR2032">
-<smd name="-" x="0" y="0" dx="15" dy="15" layer="1" roundness="100"/>
+<smd name="-" x="0" y="0" dx="15" dy="15" layer="1" roundness="100" cream="no"/>
 <pad name="+_2" x="-10.985" y="0" drill="2" diameter="3.81" shape="long" rot="R90"/>
 <pad name="+_1" x="10.985" y="0" drill="2" diameter="3.81" shape="long" rot="R90"/>
 <text x="-7.936" y="10.272" size="1.27" layer="25">&gt;NAME</text>
@@ -21483,9 +21483,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="-10.922" y1="4.318" x2="-10.922" y2="7.112" width="0.127" layer="21"/>
 <wire x1="-10.922" y1="7.112" x2="-8.382" y2="9.652" width="0.127" layer="21"/>
 <wire x1="-8.382" y1="9.652" x2="0" y2="9.652" width="0.127" layer="21"/>
-<wire x1="10.922" y1="4.318" x2="10.922" y2="7.112" width="0.127" layer="22"/>
-<wire x1="10.922" y1="7.112" x2="8.382" y2="9.652" width="0.127" layer="22"/>
-<wire x1="8.382" y1="9.652" x2="0" y2="9.652" width="0.127" layer="22"/>
+<wire x1="10.922" y1="4.318" x2="10.922" y2="7.112" width="0.127" layer="21"/>
+<wire x1="10.922" y1="7.112" x2="8.382" y2="9.652" width="0.127" layer="21"/>
+<wire x1="8.382" y1="9.652" x2="0" y2="9.652" width="0.127" layer="21"/>
 <wire x1="-10.922" y1="-7.366" x2="-10.922" y2="-4.318" width="0.127" layer="21"/>
 <wire x1="10.922" y1="-7.366" x2="10.922" y2="-4.318" width="0.127" layer="21"/>
 </package>
@@ -21495,9 +21495,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="-1.8" y1="-0.8" x2="-1.8" y2="0.6" width="0.127" layer="21"/>
 <wire x1="-1.8" y1="0.6" x2="-1.2" y2="1.2" width="0.127" layer="21"/>
 <wire x1="-1.2" y1="1.2" x2="0" y2="1.2" width="0.127" layer="21"/>
-<wire x1="1.8" y1="-0.8" x2="1.8" y2="0.6" width="0.127" layer="22"/>
-<wire x1="1.8" y1="0.6" x2="1.2" y2="1.2" width="0.127" layer="22"/>
-<wire x1="1.2" y1="1.2" x2="0" y2="1.2" width="0.127" layer="22"/>
+<wire x1="1.8" y1="-0.8" x2="1.8" y2="0.6" width="0.127" layer="21"/>
+<wire x1="1.8" y1="0.6" x2="1.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.2" y1="1.2" x2="0" y2="1.2" width="0.127" layer="21"/>
 <text x="-2.6" y="1.4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.6" y="-2.4" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-2.5" y1="0.5" x2="-2.5" y2="-0.5" width="0.127" layer="21"/>
@@ -21517,9 +21517,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="-3" y1="1.8" x2="-3" y2="2.4" width="0.127" layer="21"/>
 <wire x1="-3" y1="2.4" x2="-2.6" y2="2.8" width="0.127" layer="21"/>
 <wire x1="-2.6" y1="2.8" x2="-1.4" y2="2.8" width="0.127" layer="21"/>
-<wire x1="3" y1="1.8" x2="3" y2="2.4" width="0.127" layer="22"/>
-<wire x1="3" y1="2.4" x2="2.6" y2="2.8" width="0.127" layer="22"/>
-<wire x1="2.6" y1="2.8" x2="1.4" y2="2.8" width="0.127" layer="22"/>
+<wire x1="3" y1="1.8" x2="3" y2="2.4" width="0.127" layer="21"/>
+<wire x1="3" y1="2.4" x2="2.6" y2="2.8" width="0.127" layer="21"/>
+<wire x1="2.6" y1="2.8" x2="1.4" y2="2.8" width="0.127" layer="21"/>
 <wire x1="-2" y1="4" x2="-2" y2="3" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="3.5" x2="-2.5" y2="3.5" width="0.127" layer="21"/>
 </package>
@@ -22809,8 +22809,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="Y1" library="nixe_cmp" deviceset="ECS-.327-7-34B" device="" value=""/>
 <part name="BAT1" library="nixe_cmp" deviceset="CR2032" device=""/>
-<part name="J2" library="nixe_cmp" deviceset="RTC_CON" device="SMD" value=""/>
-<part name="J4" library="nixe_cmp" deviceset="RTC_CON" device="THT" value=""/>
+<part name="J2" library="nixe_cmp" deviceset="RTC_CON" device="SMD" value="RTC_CONSMD"/>
+<part name="J4" library="nixe_cmp" deviceset="RTC_CON" device="THT" value="RTC_CONTHT"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
